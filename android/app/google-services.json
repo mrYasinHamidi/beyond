@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "317766462367",
+    "project_id": "beyond-6b338",
+    "storage_bucket": "beyond-6b338.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317766462367:android:935bb865b95cb80ca06baa",
+        "android_client_info": {
+          "package_name": "com.messenger.beyond"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9JfHhXKnXUxlQVaBCLD9oPQWZzG6JC9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
