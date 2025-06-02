@@ -7,6 +7,11 @@ import 'package:injectable/injectable.dart';
 class LanguageCubit extends HydratedCubit<Locale> {
   LanguageCubit() : super(AppLocalizations.supportedLocales.first);
 
+  changeLanguage() {
+    final newState = AppLocalizations.supportedLocales.firstWhere((element) => element != state);
+    emit(newState);
+  }
+
   @override
   Locale? fromJson(Map<String, dynamic> json) => Locale(json['language_code']);
 

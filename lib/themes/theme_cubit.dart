@@ -18,10 +18,10 @@ class ThemeCubit extends HydratedCubit<AppTheme> {
   }
 
   @override
-  AppTheme? fromJson(Map<String, dynamic> json) => json['current_theme'];
+  AppTheme? fromJson(Map<String, dynamic> json) => AppTheme.values.elementAt(json['current_theme']);
 
   @override
-  Map<String, dynamic>? toJson(AppTheme state) => {'current_theme': state};
+  Map<String, dynamic>? toJson(AppTheme state) => {'current_theme': state.index};
 
   @disposeMethod
   @override

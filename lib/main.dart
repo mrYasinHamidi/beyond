@@ -1,4 +1,4 @@
-import 'package:beyond/app_router.dart';
+import 'package:beyond/routes/app_router.dart';
 import 'package:beyond/injection/app_injection.dart';
 import 'package:beyond/themes/app_theme.dart';
 import 'package:beyond/themes/theme_cubit.dart';
@@ -15,13 +15,13 @@ void main() => initializeApplication().then((value) => runApp(MyApp()));
 Future<void> initializeApplication() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  configureDependencies();
-
   HydratedBloc.storage = await HydratedStorage.build(
     storageDirectory: kIsWeb
         ? HydratedStorageDirectory.web
         : HydratedStorageDirectory((await getTemporaryDirectory()).path),
   );
+
+  configureDependencies();
 }
 
 class MyApp extends StatelessWidget {
