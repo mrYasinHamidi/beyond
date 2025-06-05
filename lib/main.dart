@@ -4,16 +4,22 @@ import 'package:beyond/themes/app_theme.dart';
 import 'package:beyond/themes/theme_cubit.dart';
 import 'package:beyond/translation/app_translation.dart';
 import 'package:beyond/translation/language_cubit.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hydrated_bloc/hydrated_bloc.dart';
 import 'package:path_provider/path_provider.dart';
 
+import 'firebase_options.dart';
+
 void main() => initializeApplication().then((value) => runApp(MyApp()));
 
 Future<void> initializeApplication() async {
   WidgetsFlutterBinding.ensureInitialized();
+
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
 
   HydratedBloc.storage = await HydratedStorage.build(
     storageDirectory: kIsWeb
