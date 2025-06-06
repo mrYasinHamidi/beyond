@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
 class NumberKeyboard extends StatelessWidget {
-  final Function(Char number) onTapNumber;
+  final Function(String number) onTapNumber;
 
   const NumberKeyboard({super.key, required this.onTapNumber});
 
@@ -18,11 +18,11 @@ class NumberKeyboard extends StatelessWidget {
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              Expanded(child: _Button(number: 1)),
+              Expanded(child: _Button(number: 1, onTap: () => onTapNumber('1'))),
               Gap(8),
-              Expanded(child: _Button(number: 2)),
+              Expanded(child: _Button(number: 2, onTap: () => onTapNumber('2'))),
               Gap(8),
-              Expanded(child: _Button(number: 3)),
+              Expanded(child: _Button(number: 3, onTap: () => onTapNumber('3'))),
             ],
           ),
         ),
@@ -31,11 +31,11 @@ class NumberKeyboard extends StatelessWidget {
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              Expanded(child: _Button(number: 4)),
+              Expanded(child: _Button(number: 4, onTap: () => onTapNumber('4'))),
               Gap(8),
-              Expanded(child: _Button(number: 5)),
+              Expanded(child: _Button(number: 5, onTap: () => onTapNumber('5'))),
               Gap(8),
-              Expanded(child: _Button(number: 6)),
+              Expanded(child: _Button(number: 6, onTap: () => onTapNumber('6'))),
             ],
           ),
         ),
@@ -44,11 +44,11 @@ class NumberKeyboard extends StatelessWidget {
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              Expanded(child: _Button(number: 7)),
+              Expanded(child: _Button(number: 7, onTap: () => onTapNumber('7'))),
               Gap(8),
-              Expanded(child: _Button(number: 8)),
+              Expanded(child: _Button(number: 8, onTap: () => onTapNumber('8'))),
               Gap(8),
-              Expanded(child: _Button(number: 9)),
+              Expanded(child: _Button(number: 9, onTap: () => onTapNumber('9'))),
             ],
           ),
         ),
@@ -59,9 +59,9 @@ class NumberKeyboard extends StatelessWidget {
             children: [
               Spacer(),
               Gap(8),
-              Expanded(child: _Button(number: 0)),
+              Expanded(child: _Button(number: 0, onTap: () => onTapNumber('0'))),
               Gap(8),
-              Expanded(child: _Button()),
+              Expanded(child: _Button(onTap: () => onTapNumber(''))),
             ],
           ),
         ),
@@ -79,6 +79,8 @@ class _Button extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ItemButton(
+      onTap: onTap,
+      addDebounce: false,
       color: context.theme.scaffoldBackgroundColor.withAlpha(50),
       splashFactory: InkSparkle.splashFactory,
       child: Row(

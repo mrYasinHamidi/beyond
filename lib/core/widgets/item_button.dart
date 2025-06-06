@@ -1,5 +1,4 @@
 import 'package:beyond/themes/theme_extension.dart';
-import 'package:beyond/themes/theme_extension.dart';
 import 'package:easy_debounce/easy_debounce.dart';
 import 'package:flutter/material.dart';
 
@@ -18,10 +17,12 @@ class ItemButton extends StatelessWidget {
   final VoidCallback? onTap;
   final GestureTapDownCallback? onTapDown;
   final List<BoxShadow>? shadow;
+  final bool addDebounce;
 
   const ItemButton({
     super.key,
     this.child,
+    this.addDebounce = true,
     this.onTap,
     this.borderRadius,
     this.color,
@@ -46,13 +47,17 @@ class ItemButton extends StatelessWidget {
 
     final button = InkWell(
       onTap: () {
-        EasyDebounce.debounce('onTap', const Duration(milliseconds: 300), onTap ?? () {});
+        if (addDebounce) {
+          EasyDebounce.debounce('onTap', const Duration(milliseconds: 300), onTap ?? () {});
+        } else {
+          onTap?.call();
+        }
       },
       onTapDown: onTapDown,
       splashFactory: splashFactory,
       borderRadius: shape == BoxShape.circle ? BorderRadius.circular(100) : radius,
-      splashColor: (splashColor??context.theme.primaryColor).withAlpha(50),
-      highlightColor: (splashColor??context.theme.primaryColor).withAlpha(20),
+      splashColor: (splashColor ?? context.theme.primaryColor).withAlpha(50),
+      highlightColor: (splashColor ?? context.theme.primaryColor).withAlpha(20),
       child: Padding(padding: padding, child: child),
     );
 

@@ -43,6 +43,7 @@ flutter:
   generate: true
   uses-material-design: true
   assets:
+    - assets/
     - assets/images/
     - assets/animations/
   # An image asset can refer to one or more resolution-specific "variants", see
