@@ -11,6 +11,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hydrated_bloc/hydrated_bloc.dart';
 import 'package:path_provider/path_provider.dart';
+import 'package:responsive_framework/responsive_framework.dart';
 
 import 'firebase_options.dart';
 
@@ -50,6 +51,15 @@ class MyApp extends StatelessWidget {
                 locale: locale,
                 localizationsDelegates: AppLocalizations.localizationsDelegates,
                 supportedLocales: AppLocalizations.supportedLocales,
+                builder: (context, child) => ResponsiveBreakpoints.builder(
+                  child: child!,
+                  breakpoints: [
+                    const Breakpoint(start: 0, end: 450, name: MOBILE),
+                    const Breakpoint(start: 451, end: 800, name: TABLET),
+                    const Breakpoint(start: 801, end: 1920, name: DESKTOP),
+                    const Breakpoint(start: 1921, end: double.infinity, name: '4K'),
+                  ],
+                ),
               );
             },
           );

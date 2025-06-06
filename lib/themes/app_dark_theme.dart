@@ -1,5 +1,5 @@
 part of 'app_theme.dart';
 
 class AppDarkTheme {
-  ThemeData themeData = ThemeData.dark();
+  late final ThemeData themeData = FlexThemeData.dark(scheme: FlexScheme.deepBlue);
 }
