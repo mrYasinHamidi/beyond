@@ -10,6 +10,7 @@ part 'login_state.dart';
 class LoginCubit extends Cubit<LoginState> {
   LoginCubit() : super(LoginState());
   final phoneController = TextEditingController();
+  final countryCodeController = TextEditingController(text: '+');
 
   phoneNumberInserted(String number) {
     String removeLast(String s) => s.isNotEmpty ? s.substring(0, s.length - 1) : s;

@@ -12,60 +12,63 @@ class NumberKeyboard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Expanded(
-          child: Row(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              Expanded(child: _Button(number: 1, onTap: () => onTapNumber('1'))),
-              Gap(8),
-              Expanded(child: _Button(number: 2, onTap: () => onTapNumber('2'))),
-              Gap(8),
-              Expanded(child: _Button(number: 3, onTap: () => onTapNumber('3'))),
-            ],
+    return Directionality(
+      textDirection: TextDirection.ltr,
+      child: Column(
+        children: [
+          Expanded(
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                Expanded(child: _Button(number: 1, onTap: () => onTapNumber('1'))),
+                Gap(8),
+                Expanded(child: _Button(number: 2, onTap: () => onTapNumber('2'))),
+                Gap(8),
+                Expanded(child: _Button(number: 3, onTap: () => onTapNumber('3'))),
+              ],
+            ),
           ),
-        ),
-        Gap(8),
-        Expanded(
-          child: Row(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              Expanded(child: _Button(number: 4, onTap: () => onTapNumber('4'))),
-              Gap(8),
-              Expanded(child: _Button(number: 5, onTap: () => onTapNumber('5'))),
-              Gap(8),
-              Expanded(child: _Button(number: 6, onTap: () => onTapNumber('6'))),
-            ],
+          Gap(8),
+          Expanded(
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                Expanded(child: _Button(number: 4, onTap: () => onTapNumber('4'))),
+                Gap(8),
+                Expanded(child: _Button(number: 5, onTap: () => onTapNumber('5'))),
+                Gap(8),
+                Expanded(child: _Button(number: 6, onTap: () => onTapNumber('6'))),
+              ],
+            ),
           ),
-        ),
-        Gap(8),
-        Expanded(
-          child: Row(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              Expanded(child: _Button(number: 7, onTap: () => onTapNumber('7'))),
-              Gap(8),
-              Expanded(child: _Button(number: 8, onTap: () => onTapNumber('8'))),
-              Gap(8),
-              Expanded(child: _Button(number: 9, onTap: () => onTapNumber('9'))),
-            ],
+          Gap(8),
+          Expanded(
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                Expanded(child: _Button(number: 7, onTap: () => onTapNumber('7'))),
+                Gap(8),
+                Expanded(child: _Button(number: 8, onTap: () => onTapNumber('8'))),
+                Gap(8),
+                Expanded(child: _Button(number: 9, onTap: () => onTapNumber('9'))),
+              ],
+            ),
           ),
-        ),
-        Gap(8),
-        Expanded(
-          child: Row(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              Spacer(),
-              Gap(8),
-              Expanded(child: _Button(number: 0, onTap: () => onTapNumber('0'))),
-              Gap(8),
-              Expanded(child: _Button(onTap: () => onTapNumber(''))),
-            ],
+          Gap(8),
+          Expanded(
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                Spacer(),
+                Gap(8),
+                Expanded(child: _Button(number: 0, onTap: () => onTapNumber('0'))),
+                Gap(8),
+                Expanded(child: _Button(onTap: () => onTapNumber(''))),
+              ],
+            ),
           ),
-        ),
-      ],
+        ],
+      ),
     );
   }
 }
