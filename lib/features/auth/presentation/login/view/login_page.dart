@@ -83,7 +83,7 @@ class _LoginPageMobileState extends State<_LoginPageMobile> {
                         ),
                       ),
                       const Gap(8),
-                      Expanded(flex: 6, child: SmartTextField()),
+                      Expanded(flex: 6, child: PhoneField(controller: cubit.phoneController)),
                     ],
                   ),
                   const Spacer(),
