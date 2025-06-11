@@ -2,6 +2,7 @@ import 'package:beyond/core/widgets/responsive_page.dart';
 import 'package:beyond/features/auth/presentation/login/cubit/login_cubit.dart';
 import 'package:beyond/features/auth/presentation/login/view/widgets/country_selector_button.dart';
 import 'package:beyond/features/auth/presentation/login/view/widgets/number_keyboard.dart';
+import 'package:beyond/features/auth/presentation/login/view/widgets/phone_field.dart';
 import 'package:beyond/injection/app_injection.dart';
 import 'package:beyond/themes/app_theme.dart';
 import 'package:beyond/themes/theme_cubit.dart';
@@ -37,9 +38,9 @@ class _LoginPageMobileState extends State<_LoginPageMobile> {
   @override
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
+    final keyboardHeight = size.width / 1.618 + 100;
     return Scaffold(
       appBar: AppBar(
-        title: Text('Login'),
         actions: [
           IconButton(
             onPressed: () => context.read<ThemeCubit>().changeTheme(),
@@ -56,43 +57,42 @@ class _LoginPageMobileState extends State<_LoginPageMobile> {
         children: [
           Expanded(
             child: Padding(
-              padding: const EdgeInsets.all(16),
+              padding: const EdgeInsets.all(32),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
+                  const Spacer(),
+                  Text(
+                    'Phone Number',
+                    style: context.theme.textTheme.headlineMedium?.copyWith(fontWeight: FontWeight.bold),
+                  ),
+                  Gap(8),
+                  Text('Please confirm your country code\nand enter your phone number.'),
+                  const Spacer(),
                   CountrySelectorButton(),
                   Gap(8),
                   Row(
                     children: [
                       Expanded(
                         child: TextFormField(
-                          controller: cubit.countryCodeController,textAlign: TextAlign.center,
-                          decoration: InputDecoration(
-                            isDense: false,
-                          ),
+                          controller: cubit.countryCodeController,
+                          textAlign: TextAlign.center,
+                          decoration: InputDecoration(isDense: false),
                           keyboardType: TextInputType.number,
                         ),
                       ),
                       const Gap(8),
-                      Expanded(
-                        flex: 7,
-                        child: TextFormField(
-                          controller: cubit.phoneController,
-                          decoration: InputDecoration(
-                            label: Text(context.translator.phoneNumber),
-                            isDense: false,
-                          ),
-                          keyboardType: TextInputType.number,
-                        ),
-                      ),
+                      Expanded(flex: 6, child: SmartTextField()),
                     ],
                   ),
+                  const Spacer(),
                 ],
               ),
             ),
           ),
-          ConstrainedBox(
-            constraints: BoxConstraints(maxHeight: size.height * .35),
+          SizedBox(
+            height: keyboardHeight,
             child: Stack(
               fit: StackFit.expand,
               children: [
@@ -102,7 +102,7 @@ class _LoginPageMobileState extends State<_LoginPageMobile> {
                   colorFilter: ColorFilter.mode(context.theme.colorScheme.primaryContainer, BlendMode.srcIn),
                 ),
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(8, 80, 8, 8),
+                  padding: const EdgeInsets.fromLTRB(8, 100, 8, 8),
                   child: SafeArea(
                     child: NumberKeyboard(
                       onTapNumber: (number) {
