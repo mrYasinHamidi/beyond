@@ -1,4 +1,3 @@
-import 'package:beyond/features/auth/presentation/login/view/login_page.dart';
 import 'package:beyond/routes/app_router.dart';
 import 'package:beyond/themes/theme_cubit.dart';
 import 'package:beyond/translation/language_cubit.dart';
@@ -6,7 +5,6 @@ import 'package:beyond/translation/translator_extension.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:go_router/go_router.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({super.key});

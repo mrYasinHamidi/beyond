@@ -2,13 +2,6 @@ import 'package:beyond/themes/theme_extension.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:gap/gap.dart';
-import 'package:flutter/services.dart';
-import 'package:intl/intl.dart';
-
-import 'package:flutter/services.dart';
-import 'package:intl/intl.dart';
-
-import 'package:flutter/services.dart';
 
 class PhoneField extends StatefulWidget {
   final PhoneFieldController controller;
@@ -21,9 +14,6 @@ class PhoneField extends StatefulWidget {
 
 class _PhoneFieldState extends State<PhoneField> {
   late final PhoneFieldController _controller = widget.controller;
-  TextSelection _lastSelection = const TextSelection.collapsed(offset: -1);
-  String _lastText = '';
-  bool _isProgrammaticChange = false;
 
   @override
   void initState() {
@@ -32,63 +22,7 @@ class _PhoneFieldState extends State<PhoneField> {
   }
 
   void _onTextChanged() {
-    final currentText = _controller.text;
-    final currentSelection = _controller.selection;
-
-    // Avoid reacting to programmatic changes
-    if (_isProgrammaticChange) {
-      _isProgrammaticChange = false;
-      _lastText = currentText;
-      _lastSelection = currentSelection;
-      return;
-    }
-
-    final oldText = _lastText;
-    final oldSelection = _lastSelection;
-
-    // Compare lengths
-    if (currentText.length > oldText.length) {
-      final insertedText = currentText.replaceFirst(oldText, '');
-      final index = oldSelection.baseOffset;
-      print('Inserted "$insertedText" at index $index');
-    } else if (currentText.length < oldText.length) {
-      final removedCount = oldText.length - currentText.length;
-      final index = oldSelection.baseOffset;
-      print('Backspace/Delete of $removedCount characters at index $index');
-    } else {
-      print('No length change. Maybe selection moved.');
-    }
-
-    // Save state for next comparison
-    _lastText = currentText;
-    _lastSelection = currentSelection;
     setState(() {});
-  }
-
-  void _setProgrammaticText(String rawValue) {
-    String formatWithCustomSpaces(String raw, List<int> spaceIndexes) {
-      final buffer = StringBuffer();
-      int rawIndex = 0;
-
-      for (int i = 0; i < raw.length; i++) {
-        if (spaceIndexes.contains(rawIndex)) {
-          buffer.write(' ');
-        }
-        buffer.write(raw[i]);
-        rawIndex++;
-      }
-
-      return buffer.toString();
-    }
-
-    final formattedText = formatWithCustomSpaces(rawValue, [3, 6]);
-
-    _isProgrammaticChange = true;
-
-    _controller.value = TextEditingValue(
-      text: formattedText,
-      selection: TextSelection.collapsed(offset: formattedText.length),
-    );
   }
 
   @override
@@ -98,7 +32,6 @@ class _PhoneFieldState extends State<PhoneField> {
         TextField(
           keyboardType: TextInputType.number,
           controller: _controller,
-
           inputFormatters: [
             CustomSpaceInputFormatter([3, 6]),
           ],
@@ -117,7 +50,6 @@ class _PhoneFieldState extends State<PhoneField> {
                   color: context.theme.colorScheme.onSurface.withAlpha(index < _controller.text.length ? 0 : 100),
                 ),
               );
-              return Gap(0);
             }),
           ),
         ),
@@ -134,17 +66,31 @@ class _PhoneFieldState extends State<PhoneField> {
 }
 
 class PhoneFieldController extends TextEditingController {
-  @override
-  String get text => value.text.replaceAll(' ', '');
+  void setText(String rawValue) {
+    String formatWithCustomSpaces(String raw, List<int> spaceIndexes) {
+      final buffer = StringBuffer();
+      int rawIndex = 0;
 
-  @override
-  set text(String newText) {
-    value = value.copyWith(
-      text: newText,
-      selection: const TextSelection.collapsed(offset: -1),
-      composing: TextRange.empty,
+      for (int i = 0; i < raw.length; i++) {
+        if (spaceIndexes.contains(rawIndex)) {
+          buffer.write(' ');
+        }
+        buffer.write(raw[i]);
+        rawIndex++;
+      }
+
+      return buffer.toString();
+    }
+
+    final formattedText = formatWithCustomSpaces(rawValue, [3, 6]);
+
+    value = TextEditingValue(
+      text: formattedText,
+      selection: TextSelection.collapsed(offset: formattedText.length),
     );
   }
+
+  String get rawText => text.replaceAll(' ', '');
 }
 
 class CustomSpaceInputFormatter extends TextInputFormatter {

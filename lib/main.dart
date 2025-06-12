@@ -4,7 +4,6 @@ import 'package:beyond/themes/app_theme.dart';
 import 'package:beyond/themes/theme_cubit.dart';
 import 'package:beyond/translation/app_translation.dart';
 import 'package:beyond/translation/language_cubit.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
