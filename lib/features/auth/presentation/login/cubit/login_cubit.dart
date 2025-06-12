@@ -20,4 +20,11 @@ class LoginCubit extends Cubit<LoginState> {
       phoneController.setText(phoneController.rawText + number);
     }
   }
+
+  @override
+  Future<void> close() {
+    phoneController.dispose();
+    countryCodeController.dispose();
+    return super.close();
+  }
 }

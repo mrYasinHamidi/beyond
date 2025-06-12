@@ -1,0 +1,2543 @@
+{
+  "ABW": {
+    "name": "Aruba",
+    "code": "ABW",
+    "flag": "🇦🇼",
+    "dialCode": "+297",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "AFG": {
+    "name": "Afghanistan",
+    "code": "AFG",
+    "flag": "🇦🇫",
+    "dialCode": "+93",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "AGO": {
+    "name": "Angola",
+    "code": "AGO",
+    "flag": "🇦🇴",
+    "dialCode": "+244",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "AIA": {
+    "name": "Anguilla",
+    "code": "AIA",
+    "flag": "🇦🇮",
+    "dialCode": "+1264",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "ALB": {
+    "name": "Albania",
+    "code": "ALB",
+    "flag": "🇦🇱",
+    "dialCode": "+355",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "ARE": {
+    "name": "United Arab Emirates",
+    "code": "ARE",
+    "flag": "🇦🇪",
+    "dialCode": "+971",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "ARG": {
+    "name": "Argentina",
+    "code": "ARG",
+    "flag": "🇦🇷",
+    "dialCode": "+54",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "ARM": {
+    "name": "Armenia",
+    "code": "ARM",
+    "flag": "🇦🇲",
+    "dialCode": "+374",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "ASM": {
+    "name": "American Samoa",
+    "code": "ASM",
+    "flag": "🇦🇸",
+    "dialCode": "+1684",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "ATF": {
+    "name": "French Southern Territories",
+    "code": "ATF",
+    "flag": "🇹🇫",
+    "dialCode": "+",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "ATG": {
+    "name": "Antigua and Barbuda",
+    "code": "ATG",
+    "flag": "🇦🇬",
+    "dialCode": "+1268",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "AUS": {
+    "name": "Australia",
+    "code": "AUS",
+    "flag": "🇦🇺",
+    "dialCode": "+61",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "AUT": {
+    "name": "Austria",
+    "code": "AUT",
+    "flag": "🇦🇹",
+    "dialCode": "+43",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "AZE": {
+    "name": "Azerbaijan",
+    "code": "AZE",
+    "flag": "🇦🇿",
+    "dialCode": "+994",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "BDI": {
+    "name": "Burundi",
+    "code": "BDI",
+    "flag": "🇧🇮",
+    "dialCode": "+257",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "BEL": {
+    "name": "Belgium",
+    "code": "BEL",
+    "flag": "🇧🇪",
+    "dialCode": "+32",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "BEN": {
+    "name": "Benin",
+    "code": "BEN",
+    "flag": "🇧🇯",
+    "dialCode": "+229",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "BFA": {
+    "name": "Burkina Faso",
+    "code": "BFA",
+    "flag": "🇧🇫",
+    "dialCode": "+226",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "BGD": {
+    "name": "Bangladesh",
+    "code": "BGD",
+    "flag": "🇧🇩",
+    "dialCode": "+880",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "BGR": {
+    "name": "Bulgaria",
+    "code": "BGR",
+    "flag": "🇧🇬",
+    "dialCode": "+359",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "BHR": {
+    "name": "Bahrain",
+    "code": "BHR",
+    "flag": "🇧🇭",
+    "dialCode": "+973",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "BHS": {
+    "name": "Bahamas",
+    "code": "BHS",
+    "flag": "🇧🇸",
+    "dialCode": "+1242",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "BIH": {
+    "name": "Bosnia and Herzegovina",
+    "code": "BIH",
+    "flag": "🇧🇦",
+    "dialCode": "+387",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "BLR": {
+    "name": "Belarus",
+    "code": "BLR",
+    "flag": "🇧🇾",
+    "dialCode": "+375",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "BLZ": {
+    "name": "Belize",
+    "code": "BLZ",
+    "flag": "🇧🇿",
+    "dialCode": "+501",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "BMU": {
+    "name": "Bermuda",
+    "code": "BMU",
+    "flag": "🇧🇲",
+    "dialCode": "+1441",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "BOL": {
+    "name": "Bolivia",
+    "code": "BOL",
+    "flag": "🇧🇴",
+    "dialCode": "+591",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "BRA": {
+    "name": "Brazil",
+    "code": "BRA",
+    "flag": "🇧🇷",
+    "dialCode": "+55",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "BRB": {
+    "name": "Barbados",
+    "code": "BRB",
+    "flag": "🇧🇧",
+    "dialCode": "+1246",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "BRN": {
+    "name": "Brunei Darussalam",
+    "code": "BRN",
+    "flag": "🇧🇳",
+    "dialCode": "+673",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "BTN": {
+    "name": "Bhutan",
+    "code": "BTN",
+    "flag": "🇧🇹",
+    "dialCode": "+975",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "BWA": {
+    "name": "Botswana",
+    "code": "BWA",
+    "flag": "🇧🇼",
+    "dialCode": "+267",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "CAF": {
+    "name": "Central African Republic",
+    "code": "CAF",
+    "flag": "🇨🇫",
+    "dialCode": "+236",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "CAN": {
+    "name": "Canada",
+    "code": "CAN",
+    "flag": "🇨🇦",
+    "dialCode": "+1",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "CCK": {
+    "name": "Cocos (Keeling) Islands",
+    "code": "CCK",
+    "flag": "🇨🇨",
+    "dialCode": "+61",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "CHE": {
+    "name": "Switzerland",
+    "code": "CHE",
+    "flag": "🇨🇭",
+    "dialCode": "+41",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "CHL": {
+    "name": "Chile",
+    "code": "CHL",
+    "flag": "🇨🇱",
+    "dialCode": "+56",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "CHN": {
+    "name": "China",
+    "code": "CHN",
+    "flag": "🇨🇳",
+    "dialCode": "+86",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "CIV": {
+    "name": "Côte d'Ivoire",
+    "code": "CIV",
+    "flag": "🇨🇮",
+    "dialCode": "+225",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "CMR": {
+    "name": "Cameroon",
+    "code": "CMR",
+    "flag": "🇨🇲",
+    "dialCode": "+237",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "COD": {
+    "name": "Congo",
+    "code": "COD",
+    "flag": "🇨🇩",
+    "dialCode": "+243",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "COG": {
+    "name": "Congo",
+    "code": "COG",
+    "flag": "🇨🇬",
+    "dialCode": "+242",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "COK": {
+    "name": "Cook Islands",
+    "code": "COK",
+    "flag": "🇨🇰",
+    "dialCode": "+682",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "COL": {
+    "name": "Colombia",
+    "code": "COL",
+    "flag": "🇨🇴",
+    "dialCode": "+57",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "COM": {
+    "name": "Comoros",
+    "code": "COM",
+    "flag": "🇰🇲",
+    "dialCode": "+269",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "CPV": {
+    "name": "Cabo Verde",
+    "code": "CPV",
+    "flag": "🇨🇻",
+    "dialCode": "+238",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "CRI": {
+    "name": "Costa Rica",
+    "code": "CRI",
+    "flag": "🇨🇷",
+    "dialCode": "+506",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "CUB": {
+    "name": "Cuba",
+    "code": "CUB",
+    "flag": "🇨🇺",
+    "dialCode": "+53",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "CXR": {
+    "name": "Christmas Island",
+    "code": "CXR",
+    "flag": "🇨🇽",
+    "dialCode": "+61",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "CYM": {
+    "name": "Cayman Islands",
+    "code": "CYM",
+    "flag": "🇰🇾",
+    "dialCode": "+1345",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "CYP": {
+    "name": "Cyprus",
+    "code": "CYP",
+    "flag": "🇨🇾",
+    "dialCode": "+357",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "CZE": {
+    "name": "Czechia",
+    "code": "CZE",
+    "flag": "🇨🇿",
+    "dialCode": "+420",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "DEU": {
+    "name": "Germany",
+    "code": "DEU",
+    "flag": "🇩🇪",
+    "dialCode": "+49",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "DJI": {
+    "name": "Djibouti",
+    "code": "DJI",
+    "flag": "🇩🇯",
+    "dialCode": "+253",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "DMA": {
+    "name": "Dominica",
+    "code": "DMA",
+    "flag": "🇩🇲",
+    "dialCode": "+1767",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "DNK": {
+    "name": "Denmark",
+    "code": "DNK",
+    "flag": "🇩🇰",
+    "dialCode": "+45",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "DOM": {
+    "name": "Dominican Republic",
+    "code": "DOM",
+    "flag": "🇩🇴",
+    "dialCode": "+1809",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "DZA": {
+    "name": "Algeria",
+    "code": "DZA",
+    "flag": "🇩🇿",
+    "dialCode": "+213",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "ECU": {
+    "name": "Ecuador",
+    "code": "ECU",
+    "flag": "🇪🇨",
+    "dialCode": "+593",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "EGY": {
+    "name": "Egypt",
+    "code": "EGY",
+    "flag": "🇪🇬",
+    "dialCode": "+20",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "ERI": {
+    "name": "Eritrea",
+    "code": "ERI",
+    "flag": "🇪🇷",
+    "dialCode": "+291",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "ESH": {
+    "name": "Western Sahara",
+    "code": "ESH",
+    "flag": "🇪🇭",
+    "dialCode": "+212",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "ESP": {
+    "name": "Spain",
+    "code": "ESP",
+    "flag": "🇪🇸",
+    "dialCode": "+34",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "EST": {
+    "name": "Estonia",
+    "code": "EST",
+    "flag": "🇪🇪",
+    "dialCode": "+372",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "ETH": {
+    "name": "Ethiopia",
+    "code": "ETH",
+    "flag": "🇪🇹",
+    "dialCode": "+251",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "FIN": {
+    "name": "Finland",
+    "code": "FIN",
+    "flag": "🇫🇮",
+    "dialCode": "+358",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "FJI": {
+    "name": "Fiji",
+    "code": "FJI",
+    "flag": "🇫🇯",
+    "dialCode": "+679",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "FLK": {
+    "name": "Falkland Islands (Malvinas)",
+    "code": "FLK",
+    "flag": "🇫🇰",
+    "dialCode": "+500",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "FRA": {
+    "name": "France",
+    "code": "FRA",
+    "flag": "🇫🇷",
+    "dialCode": "+33",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "FRO": {
+    "name": "Faroe Islands",
+    "code": "FRO",
+    "flag": "🇫🇴",
+    "dialCode": "+298",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "FSM": {
+    "name": "Micronesia",
+    "code": "FSM",
+    "flag": "🇫🇲",
+    "dialCode": "+691",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "GAB": {
+    "name": "Gabon",
+    "code": "GAB",
+    "flag": "🇬🇦",
+    "dialCode": "+241",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "GBR": {
+    "name": "United Kingdom",
+    "code": "GBR",
+    "flag": "🇬🇧",
+    "dialCode": "+44",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "GEO": {
+    "name": "Georgia",
+    "code": "GEO",
+    "flag": "🇬🇪",
+    "dialCode": "+995",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "GGY": {
+    "name": "Guernsey",
+    "code": "GGY",
+    "flag": "🇬🇬",
+    "dialCode": "+44",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "GHA": {
+    "name": "Ghana",
+    "code": "GHA",
+    "flag": "🇬🇭",
+    "dialCode": "+233",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "GIB": {
+    "name": "Gibraltar",
+    "code": "GIB",
+    "flag": "🇬🇮",
+    "dialCode": "+350",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "GIN": {
+    "name": "Guinea",
+    "code": "GIN",
+    "flag": "🇬🇳",
+    "dialCode": "+224",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "GLP": {
+    "name": "Guadeloupe",
+    "code": "GLP",
+    "flag": "🇬🇵",
+    "dialCode": "+590",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "GMB": {
+    "name": "Gambia",
+    "code": "GMB",
+    "flag": "🇬🇲",
+    "dialCode": "+220",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "GNB": {
+    "name": "Guinea-Bissau",
+    "code": "GNB",
+    "flag": "🇬🇼",
+    "dialCode": "+245",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "GNQ": {
+    "name": "Equatorial Guinea",
+    "code": "GNQ",
+    "flag": "🇬🇶",
+    "dialCode": "+240",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "GRC": {
+    "name": "Greece",
+    "code": "GRC",
+    "flag": "🇬🇷",
+    "dialCode": "+30",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "GRD": {
+    "name": "Grenada",
+    "code": "GRD",
+    "flag": "🇬🇩",
+    "dialCode": "+1473",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "GRL": {
+    "name": "Greenland",
+    "code": "GRL",
+    "flag": "🇬🇱",
+    "dialCode": "+299",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "GTM": {
+    "name": "Guatemala",
+    "code": "GTM",
+    "flag": "🇬🇹",
+    "dialCode": "+502",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "GUF": {
+    "name": "French Guiana",
+    "code": "GUF",
+    "flag": "🇬🇫",
+    "dialCode": "+594",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "GUM": {
+    "name": "Guam",
+    "code": "GUM",
+    "flag": "🇬🇺",
+    "dialCode": "+1671",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "GUY": {
+    "name": "Guyana",
+    "code": "GUY",
+    "flag": "🇬🇾",
+    "dialCode": "+592",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "HKG": {
+    "name": "Hong Kong",
+    "code": "HKG",
+    "flag": "🇭🇰",
+    "dialCode": "+852",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "HMD": {
+    "name": "Heard Island and McDonald Islands",
+    "code": "HMD",
+    "flag": "🇭🇲",
+    "dialCode": "+",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "HND": {
+    "name": "Honduras",
+    "code": "HND",
+    "flag": "🇭🇳",
+    "dialCode": "+504",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "HRV": {
+    "name": "Croatia",
+    "code": "HRV",
+    "flag": "🇭🇷",
+    "dialCode": "+385",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "HTI": {
+    "name": "Haiti",
+    "code": "HTI",
+    "flag": "🇭🇹",
+    "dialCode": "+509",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "HUN": {
+    "name": "Hungary",
+    "code": "HUN",
+    "flag": "🇭🇺",
+    "dialCode": "+36",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "IDN": {
+    "name": "Indonesia",
+    "code": "IDN",
+    "flag": "🇮🇩",
+    "dialCode": "+62",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "IMN": {
+    "name": "Isle of Man",
+    "code": "IMN",
+    "flag": "🇮🇲",
+    "dialCode": "+44",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "IND": {
+    "name": "India",
+    "code": "IND",
+    "flag": "🇮🇳",
+    "dialCode": "+91",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "IOT": {
+    "name": "British Indian Ocean Territory",
+    "code": "IOT",
+    "flag": "🇮🇴",
+    "dialCode": "+246",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "IRL": {
+    "name": "Ireland",
+    "code": "IRL",
+    "flag": "🇮🇪",
+    "dialCode": "+353",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "IRN": {
+    "name": "Iran",
+    "code": "IRN",
+    "flag": "🇮🇷",
+    "dialCode": "+98",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "IRQ": {
+    "name": "Iraq",
+    "code": "IRQ",
+    "flag": "🇮🇶",
+    "dialCode": "+964",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "ISL": {
+    "name": "Iceland",
+    "code": "ISL",
+    "flag": "🇮🇸",
+    "dialCode": "+354",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "ISR": {
+    "name": "Israel",
+    "code": "ISR",
+    "flag": "🇮🇱",
+    "dialCode": "+972",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "ITA": {
+    "name": "Italy",
+    "code": "ITA",
+    "flag": "🇮🇹",
+    "dialCode": "+39",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "JAM": {
+    "name": "Jamaica",
+    "code": "JAM",
+    "flag": "🇯🇲",
+    "dialCode": "+1876",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "JEY": {
+    "name": "Jersey",
+    "code": "JEY",
+    "flag": "🇯🇪",
+    "dialCode": "+44",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "JOR": {
+    "name": "Jordan",
+    "code": "JOR",
+    "flag": "🇯🇴",
+    "dialCode": "+962",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "JPN": {
+    "name": "Japan",
+    "code": "JPN",
+    "flag": "🇯🇵",
+    "dialCode": "+81",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "KAZ": {
+    "name": "Kazakhstan",
+    "code": "KAZ",
+    "flag": "🇰🇿",
+    "dialCode": "+76",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "KEN": {
+    "name": "Kenya",
+    "code": "KEN",
+    "flag": "🇰🇪",
+    "dialCode": "+254",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "KGZ": {
+    "name": "Kyrgyzstan",
+    "code": "KGZ",
+    "flag": "🇰🇬",
+    "dialCode": "+996",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "KHM": {
+    "name": "Cambodia",
+    "code": "KHM",
+    "flag": "🇰🇭",
+    "dialCode": "+855",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "KIR": {
+    "name": "Kiribati",
+    "code": "KIR",
+    "flag": "🇰🇮",
+    "dialCode": "+686",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "KNA": {
+    "name": "Saint Kitts and Nevis",
+    "code": "KNA",
+    "flag": "🇰🇳",
+    "dialCode": "+1869",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "KOR": {
+    "name": "Korea",
+    "code": "KOR",
+    "flag": "🇰🇷",
+    "dialCode": "+82",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "KWT": {
+    "name": "Kuwait",
+    "code": "KWT",
+    "flag": "🇰🇼",
+    "dialCode": "+965",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "LAO": {
+    "name": "Lao People's Democratic Republic",
+    "code": "LAO",
+    "flag": "🇱🇦",
+    "dialCode": "+856",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "LBN": {
+    "name": "Lebanon",
+    "code": "LBN",
+    "flag": "🇱🇧",
+    "dialCode": "+961",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "LBR": {
+    "name": "Liberia",
+    "code": "LBR",
+    "flag": "🇱🇷",
+    "dialCode": "+231",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "LBY": {
+    "name": "Libya",
+    "code": "LBY",
+    "flag": "🇱🇾",
+    "dialCode": "+218",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "LCA": {
+    "name": "Saint Lucia",
+    "code": "LCA",
+    "flag": "🇱🇨",
+    "dialCode": "+1758",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "LIE": {
+    "name": "Liechtenstein",
+    "code": "LIE",
+    "flag": "🇱🇮",
+    "dialCode": "+423",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "LKA": {
+    "name": "Sri Lanka",
+    "code": "LKA",
+    "flag": "🇱🇰",
+    "dialCode": "+94",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "LSO": {
+    "name": "Lesotho",
+    "code": "LSO",
+    "flag": "🇱🇸",
+    "dialCode": "+266",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "LTU": {
+    "name": "Lithuania",
+    "code": "LTU",
+    "flag": "🇱🇹",
+    "dialCode": "+370",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "LUX": {
+    "name": "Luxembourg",
+    "code": "LUX",
+    "flag": "🇱🇺",
+    "dialCode": "+352",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "LVA": {
+    "name": "Latvia",
+    "code": "LVA",
+    "flag": "🇱🇻",
+    "dialCode": "+371",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "MAC": {
+    "name": "Macao",
+    "code": "MAC",
+    "flag": "🇲🇴",
+    "dialCode": "+853",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "MAR": {
+    "name": "Morocco",
+    "code": "MAR",
+    "flag": "🇲🇦",
+    "dialCode": "+212",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "MCO": {
+    "name": "Monaco",
+    "code": "MCO",
+    "flag": "🇲🇨",
+    "dialCode": "+377",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "MDA": {
+    "name": "Moldova",
+    "code": "MDA",
+    "flag": "🇲🇩",
+    "dialCode": "+373",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "MDG": {
+    "name": "Madagascar",
+    "code": "MDG",
+    "flag": "🇲🇬",
+    "dialCode": "+261",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "MDV": {
+    "name": "Maldives",
+    "code": "MDV",
+    "flag": "🇲🇻",
+    "dialCode": "+960",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "MEX": {
+    "name": "Mexico",
+    "code": "MEX",
+    "flag": "🇲🇽",
+    "dialCode": "+52",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "MHL": {
+    "name": "Marshall Islands",
+    "code": "MHL",
+    "flag": "🇲🇭",
+    "dialCode": "+692",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "MKD": {
+    "name": "North Macedonia",
+    "code": "MKD",
+    "flag": "🇲🇰",
+    "dialCode": "+389",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "MLI": {
+    "name": "Mali",
+    "code": "MLI",
+    "flag": "🇲🇱",
+    "dialCode": "+223",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "MLT": {
+    "name": "Malta",
+    "code": "MLT",
+    "flag": "🇲🇹",
+    "dialCode": "+356",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "MNG": {
+    "name": "Mongolia",
+    "code": "MNG",
+    "flag": "🇲🇳",
+    "dialCode": "+976",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "MNP": {
+    "name": "Northern Mariana Islands",
+    "code": "MNP",
+    "flag": "🇲🇵",
+    "dialCode": "+1670",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "MOZ": {
+    "name": "Mozambique",
+    "code": "MOZ",
+    "flag": "🇲🇿",
+    "dialCode": "+258",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "MRT": {
+    "name": "Mauritania",
+    "code": "MRT",
+    "flag": "🇲🇷",
+    "dialCode": "+222",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "MSR": {
+    "name": "Montserrat",
+    "code": "MSR",
+    "flag": "🇲🇸",
+    "dialCode": "+1664",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "MTQ": {
+    "name": "Martinique",
+    "code": "MTQ",
+    "flag": "🇲🇶",
+    "dialCode": "+596",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "MUS": {
+    "name": "Mauritius",
+    "code": "MUS",
+    "flag": "🇲🇺",
+    "dialCode": "+230",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "MWI": {
+    "name": "Malawi",
+    "code": "MWI",
+    "flag": "🇲🇼",
+    "dialCode": "+265",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "MYS": {
+    "name": "Malaysia",
+    "code": "MYS",
+    "flag": "🇲🇾",
+    "dialCode": "+60",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "MYT": {
+    "name": "Mayotte",
+    "code": "MYT",
+    "flag": "🇾🇹",
+    "dialCode": "+262",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "NAM": {
+    "name": "Namibia",
+    "code": "NAM",
+    "flag": "🇳🇦",
+    "dialCode": "+264",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "NCL": {
+    "name": "New Caledonia",
+    "code": "NCL",
+    "flag": "🇳🇨",
+    "dialCode": "+687",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "NER": {
+    "name": "Niger",
+    "code": "NER",
+    "flag": "🇳🇪",
+    "dialCode": "+227",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "NFK": {
+    "name": "Norfolk Island",
+    "code": "NFK",
+    "flag": "🇳🇫",
+    "dialCode": "+672",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "NGA": {
+    "name": "Nigeria",
+    "code": "NGA",
+    "flag": "🇳🇬",
+    "dialCode": "+234",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "NIC": {
+    "name": "Nicaragua",
+    "code": "NIC",
+    "flag": "🇳🇮",
+    "dialCode": "+505",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "NIU": {
+    "name": "Niue",
+    "code": "NIU",
+    "flag": "🇳🇺",
+    "dialCode": "+683",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "NLD": {
+    "name": "Netherlands",
+    "code": "NLD",
+    "flag": "🇳🇱",
+    "dialCode": "+31",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "NOR": {
+    "name": "Norway",
+    "code": "NOR",
+    "flag": "🇳🇴",
+    "dialCode": "+47",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "NPL": {
+    "name": "Nepal",
+    "code": "NPL",
+    "flag": "🇳🇵",
+    "dialCode": "+977",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "NRU": {
+    "name": "Nauru",
+    "code": "NRU",
+    "flag": "🇳🇷",
+    "dialCode": "+674",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "NZL": {
+    "name": "New Zealand",
+    "code": "NZL",
+    "flag": "🇳🇿",
+    "dialCode": "+64",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "OMN": {
+    "name": "Oman",
+    "code": "OMN",
+    "flag": "🇴🇲",
+    "dialCode": "+968",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "PAK": {
+    "name": "Pakistan",
+    "code": "PAK",
+    "flag": "🇵🇰",
+    "dialCode": "+92",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "PAN": {
+    "name": "Panama",
+    "code": "PAN",
+    "flag": "🇵🇦",
+    "dialCode": "+507",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "PCN": {
+    "name": "Pitcairn",
+    "code": "PCN",
+    "flag": "🇵🇳",
+    "dialCode": "+64",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "PER": {
+    "name": "Peru",
+    "code": "PER",
+    "flag": "🇵🇪",
+    "dialCode": "+51",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "PHL": {
+    "name": "Philippines",
+    "code": "PHL",
+    "flag": "🇵🇭",
+    "dialCode": "+63",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "PLW": {
+    "name": "Palau",
+    "code": "PLW",
+    "flag": "🇵🇼",
+    "dialCode": "+680",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "PNG": {
+    "name": "Papua New Guinea",
+    "code": "PNG",
+    "flag": "🇵🇬",
+    "dialCode": "+675",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "POL": {
+    "name": "Poland",
+    "code": "POL",
+    "flag": "🇵🇱",
+    "dialCode": "+48",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "PRI": {
+    "name": "Puerto Rico",
+    "code": "PRI",
+    "flag": "🇵🇷",
+    "dialCode": "+1787",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "PRK": {
+    "name": "Korea",
+    "code": "PRK",
+    "flag": "🇰🇵",
+    "dialCode": "+850",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "PRT": {
+    "name": "Portugal",
+    "code": "PRT",
+    "flag": "🇵🇹",
+    "dialCode": "+351",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "PRY": {
+    "name": "Paraguay",
+    "code": "PRY",
+    "flag": "🇵🇾",
+    "dialCode": "+595",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "PYF": {
+    "name": "French Polynesia",
+    "code": "PYF",
+    "flag": "🇵🇫",
+    "dialCode": "+689",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "QAT": {
+    "name": "Qatar",
+    "code": "QAT",
+    "flag": "🇶🇦",
+    "dialCode": "+974",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "REU": {
+    "name": "Réunion",
+    "code": "REU",
+    "flag": "🇷🇪",
+    "dialCode": "+262",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "ROU": {
+    "name": "Romania",
+    "code": "ROU",
+    "flag": "🇷🇴",
+    "dialCode": "+40",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "RUS": {
+    "name": "Russian Federation",
+    "code": "RUS",
+    "flag": "🇷🇺",
+    "dialCode": "+7",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "RWA": {
+    "name": "Rwanda",
+    "code": "RWA",
+    "flag": "🇷🇼",
+    "dialCode": "+250",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "SAU": {
+    "name": "Saudi Arabia",
+    "code": "SAU",
+    "flag": "🇸🇦",
+    "dialCode": "+966",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "SDN": {
+    "name": "Sudan",
+    "code": "SDN",
+    "flag": "🇸🇩",
+    "dialCode": "+249",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "SEN": {
+    "name": "Senegal",
+    "code": "SEN",
+    "flag": "🇸🇳",
+    "dialCode": "+221",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "SGP": {
+    "name": "Singapore",
+    "code": "SGP",
+    "flag": "🇸🇬",
+    "dialCode": "+65",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "SGS": {
+    "name": "South Georgia and the South Sandwich Islands",
+    "code": "SGS",
+    "flag": "🇬🇸",
+    "dialCode": "+500",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "SHN": {
+    "name": "Saint Helena",
+    "code": "SHN",
+    "flag": "🇸🇭",
+    "dialCode": "+290",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "SJM": {
+    "name": "Svalbard and Jan Mayen",
+    "code": "SJM",
+    "flag": "🇸🇯",
+    "dialCode": "+4779",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "SLB": {
+    "name": "Solomon Islands",
+    "code": "SLB",
+    "flag": "🇸🇧",
+    "dialCode": "+677",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "SLE": {
+    "name": "Sierra Leone",
+    "code": "SLE",
+    "flag": "🇸🇱",
+    "dialCode": "+232",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "SLV": {
+    "name": "El Salvador",
+    "code": "SLV",
+    "flag": "🇸🇻",
+    "dialCode": "+503",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "SMR": {
+    "name": "San Marino",
+    "code": "SMR",
+    "flag": "🇸🇲",
+    "dialCode": "+378",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "SOM": {
+    "name": "Somalia",
+    "code": "SOM",
+    "flag": "🇸🇴",
+    "dialCode": "+252",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "SPM": {
+    "name": "Saint Pierre and Miquelon",
+    "code": "SPM",
+    "flag": "🇵🇲",
+    "dialCode": "+508",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "SSD": {
+    "name": "South Sudan",
+    "code": "SSD",
+    "flag": "🇸🇸",
+    "dialCode": "+211",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "STP": {
+    "name": "Sao Tome and Principe",
+    "code": "STP",
+    "flag": "🇸🇹",
+    "dialCode": "+239",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "SUR": {
+    "name": "Suriname",
+    "code": "SUR",
+    "flag": "🇸🇷",
+    "dialCode": "+597",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "SVK": {
+    "name": "Slovakia",
+    "code": "SVK",
+    "flag": "🇸🇰",
+    "dialCode": "+421",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "SVN": {
+    "name": "Slovenia",
+    "code": "SVN",
+    "flag": "🇸🇮",
+    "dialCode": "+386",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "SWE": {
+    "name": "Sweden",
+    "code": "SWE",
+    "flag": "🇸🇪",
+    "dialCode": "+46",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "SWZ": {
+    "name": "Eswatini",
+    "code": "SWZ",
+    "flag": "🇸🇿",
+    "dialCode": "+268",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "SYC": {
+    "name": "Seychelles",
+    "code": "SYC",
+    "flag": "🇸🇨",
+    "dialCode": "+248",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "SYR": {
+    "name": "Syrian Arab Republic",
+    "code": "SYR",
+    "flag": "🇸🇾",
+    "dialCode": "+963",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "TCD": {
+    "name": "Chad",
+    "code": "TCD",
+    "flag": "🇹🇩",
+    "dialCode": "+235",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "TGO": {
+    "name": "Togo",
+    "code": "TGO",
+    "flag": "🇹🇬",
+    "dialCode": "+228",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "THA": {
+    "name": "Thailand",
+    "code": "THA",
+    "flag": "🇹🇭",
+    "dialCode": "+66",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "TJK": {
+    "name": "Tajikistan",
+    "code": "TJK",
+    "flag": "🇹🇯",
+    "dialCode": "+992",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "TKL": {
+    "name": "Tokelau",
+    "code": "TKL",
+    "flag": "🇹🇰",
+    "dialCode": "+690",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "TKM": {
+    "name": "Turkmenistan",
+    "code": "TKM",
+    "flag": "🇹🇲",
+    "dialCode": "+993",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "TLS": {
+    "name": "Timor-Leste",
+    "code": "TLS",
+    "flag": "🇹🇱",
+    "dialCode": "+670",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "TON": {
+    "name": "Tonga",
+    "code": "TON",
+    "flag": "🇹🇴",
+    "dialCode": "+676",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "TTO": {
+    "name": "Trinidad and Tobago",
+    "code": "TTO",
+    "flag": "🇹🇹",
+    "dialCode": "+1868",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "TUN": {
+    "name": "Tunisia",
+    "code": "TUN",
+    "flag": "🇹🇳",
+    "dialCode": "+216",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "TUR": {
+    "name": "Turkey",
+    "code": "TUR",
+    "flag": "🇹🇷",
+    "dialCode": "+90",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "TUV": {
+    "name": "Tuvalu",
+    "code": "TUV",
+    "flag": "🇹🇻",
+    "dialCode": "+688",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "TWN": {
+    "name": "Taiwan",
+    "code": "TWN",
+    "flag": "🇹🇼",
+    "dialCode": "+886",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "TZA": {
+    "name": "Tanzania",
+    "code": "TZA",
+    "flag": "🇹🇿",
+    "dialCode": "+255",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "UGA": {
+    "name": "Uganda",
+    "code": "UGA",
+    "flag": "🇺🇬",
+    "dialCode": "+256",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "UKR": {
+    "name": "Ukraine",
+    "code": "UKR",
+    "flag": "🇺🇦",
+    "dialCode": "+380",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "URY": {
+    "name": "Uruguay",
+    "code": "URY",
+    "flag": "🇺🇾",
+    "dialCode": "+598",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "USA": {
+    "name": "United States",
+    "code": "USA",
+    "flag": "🇺🇸",
+    "dialCode": "+1",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "UZB": {
+    "name": "Uzbekistan",
+    "code": "UZB",
+    "flag": "🇺🇿",
+    "dialCode": "+998",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "VCT": {
+    "name": "Saint Vincent and the Grenadines",
+    "code": "VCT",
+    "flag": "🇻🇨",
+    "dialCode": "+1784",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "VEN": {
+    "name": "Venezuela",
+    "code": "VEN",
+    "flag": "🇻🇪",
+    "dialCode": "+58",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "VNM": {
+    "name": "Vietnam",
+    "code": "VNM",
+    "flag": "🇻🇳",
+    "dialCode": "+84",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "VUT": {
+    "name": "Vanuatu",
+    "code": "VUT",
+    "flag": "🇻🇺",
+    "dialCode": "+678",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "WLF": {
+    "name": "Wallis and Futuna",
+    "code": "WLF",
+    "flag": "🇼🇫",
+    "dialCode": "+681",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "WSM": {
+    "name": "Samoa",
+    "code": "WSM",
+    "flag": "🇼🇸",
+    "dialCode": "+685",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "YEM": {
+    "name": "Yemen",
+    "code": "YEM",
+    "flag": "🇾🇪",
+    "dialCode": "+967",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "ZAF": {
+    "name": "South Africa",
+    "code": "ZAF",
+    "flag": "🇿🇦",
+    "dialCode": "+27",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "ZMB": {
+    "name": "Zambia",
+    "code": "ZMB",
+    "flag": "🇿🇲",
+    "dialCode": "+260",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  },
+  "ZWE": {
+    "name": "Zimbabwe",
+    "code": "ZWE",
+    "flag": "🇿🇼",
+    "dialCode": "+263",
+    "phoneNumberSpaceIndex": [
+      3,
+      6
+    ],
+    "length": 10
+  }
+}

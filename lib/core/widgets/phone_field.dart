@@ -1,6 +1,6 @@
+import 'package:beyond/core/utils/space_input_formatter.dart';
 import 'package:beyond/themes/theme_extension.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:gap/gap.dart';
 
 class PhoneField extends StatefulWidget {
@@ -29,15 +29,8 @@ class _PhoneFieldState extends State<PhoneField> {
   Widget build(BuildContext context) {
     return Stack(
       children: [
-        TextField(
-          keyboardType: TextInputType.number,
-          controller: _controller,
-          inputFormatters: [
-            CustomSpaceInputFormatter([3, 6]),
-          ],
-        ),
         Positioned(
-          bottom: 9,
+          bottom: 7.5,
           left: 0,
           child: Row(
             children: List.generate(12, (index) {
@@ -53,15 +46,16 @@ class _PhoneFieldState extends State<PhoneField> {
             }),
           ),
         ),
+        TextField(
+          keyboardType: TextInputType.number,
+          controller: _controller,
+          decoration: InputDecoration(contentPadding: EdgeInsets.fromLTRB(0, 20, 0, 12), isDense: true),
+          inputFormatters: [
+            SpaceInputFormatter([3, 6]),
+          ],
+        ),
       ],
     );
-  }
-
-  @override
-  void dispose() {
-    _controller.removeListener(_onTextChanged);
-    _controller.dispose();
-    super.dispose();
   }
 }
 
@@ -91,35 +85,4 @@ class PhoneFieldController extends TextEditingController {
   }
 
   String get rawText => text.replaceAll(' ', '');
-}
-
-class CustomSpaceInputFormatter extends TextInputFormatter {
-  final List<int> spaceIndexes;
-
-  CustomSpaceInputFormatter(this.spaceIndexes);
-
-  @override
-  TextEditingValue formatEditUpdate(TextEditingValue oldValue, TextEditingValue newValue) {
-    // Step 1: Remove existing spaces
-    String rawText = newValue.text.replaceAll(' ', '');
-
-    // Step 2: Insert spaces at custom indexes
-    StringBuffer formatted = StringBuffer();
-    int rawIndex = 0;
-
-    for (int i = 0; i < rawText.length; i++) {
-      if (spaceIndexes.contains(rawIndex)) {
-        formatted.write(' ');
-      }
-      formatted.write(rawText[i]);
-      rawIndex++;
-    }
-
-    // Step 3: Adjust cursor position
-    int newOffset = formatted.length;
-    return TextEditingValue(
-      text: formatted.toString(),
-      selection: TextSelection.collapsed(offset: newOffset),
-    );
-  }
 }

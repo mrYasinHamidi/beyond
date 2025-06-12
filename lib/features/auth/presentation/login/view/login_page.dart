@@ -1,3 +1,4 @@
+import 'package:beyond/core/utils/fixed_prefix_formatter.dart';
 import 'package:beyond/core/widgets/responsive_page.dart';
 import 'package:beyond/features/auth/presentation/login/cubit/login_cubit.dart';
 import 'package:beyond/features/auth/presentation/login/view/widgets/country_selector_button.dart';
@@ -36,8 +37,6 @@ class _LoginPageMobileState extends State<_LoginPageMobile> {
 
   @override
   Widget build(BuildContext context) {
-    final size = MediaQuery.of(context).size;
-    final keyboardHeight = size.width / 1.618 + 100;
     return Scaffold(
       appBar: AppBar(
         actions: [
@@ -77,7 +76,11 @@ class _LoginPageMobileState extends State<_LoginPageMobile> {
                         child: TextFormField(
                           controller: cubit.countryCodeController,
                           textAlign: TextAlign.center,
-                          decoration: InputDecoration(isDense: false),
+                          inputFormatters: [FixedPrefixFormatter('+')],
+                          decoration: InputDecoration(
+                            contentPadding: EdgeInsets.fromLTRB(0, 20, 0, 12),
+                            isDense: true,
+                          ),
                           keyboardType: TextInputType.number,
                         ),
                       ),
@@ -90,8 +93,8 @@ class _LoginPageMobileState extends State<_LoginPageMobile> {
               ),
             ),
           ),
-          SizedBox(
-            height: keyboardHeight,
+          AspectRatio(
+            aspectRatio: 1,
             child: Stack(
               fit: StackFit.expand,
               children: [
@@ -100,13 +103,20 @@ class _LoginPageMobileState extends State<_LoginPageMobile> {
                   fit: BoxFit.fill,
                   colorFilter: ColorFilter.mode(context.theme.colorScheme.primaryContainer, BlendMode.srcIn),
                 ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(8, 100, 8, 8),
-                  child: SafeArea(
-                    child: NumberKeyboard(
-                      onTapNumber: (number) {
-                        cubit.phoneNumberInserted(number);
-                      },
+                SafeArea(
+                  child: Align(
+                    alignment: Alignment.bottomCenter,
+                    child: FractionallySizedBox(
+                      widthFactor: 1,
+                      heightFactor: .65,
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: NumberKeyboard(
+                          onTapNumber: (number) {
+                            cubit.phoneNumberInserted(number);
+                          },
+                        ),
+                      ),
                     ),
                   ),
                 ),

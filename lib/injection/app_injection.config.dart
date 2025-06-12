@@ -28,13 +28,13 @@ extension GetItInjectableX on _i174.GetIt {
     final gh = _i526.GetItHelper(this, environment, environmentFilter);
     final registerModule = _$RegisterModule();
     gh.factory<_i326.LoginCubit>(() => _i326.LoginCubit());
-    gh.singleton<_i134.LanguageCubit>(
-      () => _i134.LanguageCubit(),
-      dispose: (i) => i.close(),
-    );
     gh.singleton<_i59.FirebaseAuth>(() => registerModule.firebaseAuth);
     gh.singleton<_i965.ThemeCubit>(
       () => _i965.ThemeCubit(),
+      dispose: (i) => i.close(),
+    );
+    gh.singleton<_i134.LanguageCubit>(
+      () => _i134.LanguageCubit(),
       dispose: (i) => i.close(),
     );
     gh.singleton<_i1028.AuthDataSource>(
