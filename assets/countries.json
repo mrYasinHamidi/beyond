@@ -1,5 +1,5 @@
-{
-  "ABW": {
+[
+  {
     "name": "Aruba",
     "code": "ABW",
     "flag": "🇦🇼",
@@ -10,7 +10,7 @@
     ],
     "length": 10
   },
-  "AFG": {
+  {
     "name": "Afghanistan",
     "code": "AFG",
     "flag": "🇦🇫",
@@ -21,7 +21,7 @@
     ],
     "length": 10
   },
-  "AGO": {
+  {
     "name": "Angola",
     "code": "AGO",
     "flag": "🇦🇴",
@@ -32,7 +32,7 @@
     ],
     "length": 10
   },
-  "AIA": {
+  {
     "name": "Anguilla",
     "code": "AIA",
     "flag": "🇦🇮",
@@ -43,7 +43,7 @@
     ],
     "length": 10
   },
-  "ALB": {
+  {
     "name": "Albania",
     "code": "ALB",
     "flag": "🇦🇱",
@@ -54,7 +54,7 @@
     ],
     "length": 10
   },
-  "ARE": {
+  {
     "name": "United Arab Emirates",
     "code": "ARE",
     "flag": "🇦🇪",
@@ -65,7 +65,7 @@
     ],
     "length": 10
   },
-  "ARG": {
+  {
     "name": "Argentina",
     "code": "ARG",
     "flag": "🇦🇷",
@@ -76,7 +76,7 @@
     ],
     "length": 10
   },
-  "ARM": {
+  {
     "name": "Armenia",
     "code": "ARM",
     "flag": "🇦🇲",
@@ -87,7 +87,7 @@
     ],
     "length": 10
   },
-  "ASM": {
+  {
     "name": "American Samoa",
     "code": "ASM",
     "flag": "🇦🇸",
@@ -98,7 +98,7 @@
     ],
     "length": 10
   },
-  "ATF": {
+  {
     "name": "French Southern Territories",
     "code": "ATF",
     "flag": "🇹🇫",
@@ -109,7 +109,7 @@
     ],
     "length": 10
   },
-  "ATG": {
+  {
     "name": "Antigua and Barbuda",
     "code": "ATG",
     "flag": "🇦🇬",
@@ -120,7 +120,7 @@
     ],
     "length": 10
   },
-  "AUS": {
+  {
     "name": "Australia",
     "code": "AUS",
     "flag": "🇦🇺",
@@ -131,7 +131,7 @@
     ],
     "length": 10
   },
-  "AUT": {
+  {
     "name": "Austria",
     "code": "AUT",
     "flag": "🇦🇹",
@@ -142,7 +142,7 @@
     ],
     "length": 10
   },
-  "AZE": {
+  {
     "name": "Azerbaijan",
     "code": "AZE",
     "flag": "🇦🇿",
@@ -153,7 +153,7 @@
     ],
     "length": 10
   },
-  "BDI": {
+  {
     "name": "Burundi",
     "code": "BDI",
     "flag": "🇧🇮",
@@ -164,7 +164,7 @@
     ],
     "length": 10
   },
-  "BEL": {
+  {
     "name": "Belgium",
     "code": "BEL",
     "flag": "🇧🇪",
@@ -175,7 +175,7 @@
     ],
     "length": 10
   },
-  "BEN": {
+  {
     "name": "Benin",
     "code": "BEN",
     "flag": "🇧🇯",
@@ -186,7 +186,7 @@
     ],
     "length": 10
   },
-  "BFA": {
+  {
     "name": "Burkina Faso",
     "code": "BFA",
     "flag": "🇧🇫",
@@ -197,7 +197,7 @@
     ],
     "length": 10
   },
-  "BGD": {
+  {
     "name": "Bangladesh",
     "code": "BGD",
     "flag": "🇧🇩",
@@ -208,7 +208,7 @@
     ],
     "length": 10
   },
-  "BGR": {
+  {
     "name": "Bulgaria",
     "code": "BGR",
     "flag": "🇧🇬",
@@ -219,7 +219,7 @@
     ],
     "length": 10
   },
-  "BHR": {
+  {
     "name": "Bahrain",
     "code": "BHR",
     "flag": "🇧🇭",
@@ -230,7 +230,7 @@
     ],
     "length": 10
   },
-  "BHS": {
+  {
     "name": "Bahamas",
     "code": "BHS",
     "flag": "🇧🇸",
@@ -241,7 +241,7 @@
     ],
     "length": 10
   },
-  "BIH": {
+  {
     "name": "Bosnia and Herzegovina",
     "code": "BIH",
     "flag": "🇧🇦",
@@ -252,7 +252,7 @@
     ],
     "length": 10
   },
-  "BLR": {
+  {
     "name": "Belarus",
     "code": "BLR",
     "flag": "🇧🇾",
@@ -263,7 +263,7 @@
     ],
     "length": 10
   },
-  "BLZ": {
+  {
     "name": "Belize",
     "code": "BLZ",
     "flag": "🇧🇿",
@@ -274,7 +274,7 @@
     ],
     "length": 10
   },
-  "BMU": {
+  {
     "name": "Bermuda",
     "code": "BMU",
     "flag": "🇧🇲",
@@ -285,7 +285,7 @@
     ],
     "length": 10
   },
-  "BOL": {
+  {
     "name": "Bolivia",
     "code": "BOL",
     "flag": "🇧🇴",
@@ -296,7 +296,7 @@
     ],
     "length": 10
   },
-  "BRA": {
+  {
     "name": "Brazil",
     "code": "BRA",
     "flag": "🇧🇷",
@@ -307,7 +307,7 @@
     ],
     "length": 10
   },
-  "BRB": {
+  {
     "name": "Barbados",
     "code": "BRB",
     "flag": "🇧🇧",
@@ -318,7 +318,7 @@
     ],
     "length": 10
   },
-  "BRN": {
+  {
     "name": "Brunei Darussalam",
     "code": "BRN",
     "flag": "🇧🇳",
@@ -329,7 +329,7 @@
     ],
     "length": 10
   },
-  "BTN": {
+  {
     "name": "Bhutan",
     "code": "BTN",
     "flag": "🇧🇹",
@@ -340,7 +340,7 @@
     ],
     "length": 10
   },
-  "BWA": {
+  {
     "name": "Botswana",
     "code": "BWA",
     "flag": "🇧🇼",
@@ -351,7 +351,7 @@
     ],
     "length": 10
   },
-  "CAF": {
+  {
     "name": "Central African Republic",
     "code": "CAF",
     "flag": "🇨🇫",
@@ -362,7 +362,7 @@
     ],
     "length": 10
   },
-  "CAN": {
+  {
     "name": "Canada",
     "code": "CAN",
     "flag": "🇨🇦",
@@ -373,7 +373,7 @@
     ],
     "length": 10
   },
-  "CCK": {
+  {
     "name": "Cocos (Keeling) Islands",
     "code": "CCK",
     "flag": "🇨🇨",
@@ -384,7 +384,7 @@
     ],
     "length": 10
   },
-  "CHE": {
+  {
     "name": "Switzerland",
     "code": "CHE",
     "flag": "🇨🇭",
@@ -395,7 +395,7 @@
     ],
     "length": 10
   },
-  "CHL": {
+  {
     "name": "Chile",
     "code": "CHL",
     "flag": "🇨🇱",
@@ -406,7 +406,7 @@
     ],
     "length": 10
   },
-  "CHN": {
+  {
     "name": "China",
     "code": "CHN",
     "flag": "🇨🇳",
@@ -417,7 +417,7 @@
     ],
     "length": 10
   },
-  "CIV": {
+  {
     "name": "Côte d'Ivoire",
     "code": "CIV",
     "flag": "🇨🇮",
@@ -428,7 +428,7 @@
     ],
     "length": 10
   },
-  "CMR": {
+  {
     "name": "Cameroon",
     "code": "CMR",
     "flag": "🇨🇲",
@@ -439,7 +439,7 @@
     ],
     "length": 10
   },
-  "COD": {
+  {
     "name": "Congo",
     "code": "COD",
     "flag": "🇨🇩",
@@ -450,7 +450,7 @@
     ],
     "length": 10
   },
-  "COG": {
+  {
     "name": "Congo",
     "code": "COG",
     "flag": "🇨🇬",
@@ -461,7 +461,7 @@
     ],
     "length": 10
   },
-  "COK": {
+  {
     "name": "Cook Islands",
     "code": "COK",
     "flag": "🇨🇰",
@@ -472,7 +472,7 @@
     ],
     "length": 10
   },
-  "COL": {
+  {
     "name": "Colombia",
     "code": "COL",
     "flag": "🇨🇴",
@@ -483,7 +483,7 @@
     ],
     "length": 10
   },
-  "COM": {
+  {
     "name": "Comoros",
     "code": "COM",
     "flag": "🇰🇲",
@@ -494,7 +494,7 @@
     ],
     "length": 10
   },
-  "CPV": {
+  {
     "name": "Cabo Verde",
     "code": "CPV",
     "flag": "🇨🇻",
@@ -505,7 +505,7 @@
     ],
     "length": 10
   },
-  "CRI": {
+  {
     "name": "Costa Rica",
     "code": "CRI",
     "flag": "🇨🇷",
@@ -516,7 +516,7 @@
     ],
     "length": 10
   },
-  "CUB": {
+  {
     "name": "Cuba",
     "code": "CUB",
     "flag": "🇨🇺",
@@ -527,7 +527,7 @@
     ],
     "length": 10
   },
-  "CXR": {
+  {
     "name": "Christmas Island",
     "code": "CXR",
     "flag": "🇨🇽",
@@ -538,7 +538,7 @@
     ],
     "length": 10
   },
-  "CYM": {
+  {
     "name": "Cayman Islands",
     "code": "CYM",
     "flag": "🇰🇾",
@@ -549,7 +549,7 @@
     ],
     "length": 10
   },
-  "CYP": {
+  {
     "name": "Cyprus",
     "code": "CYP",
     "flag": "🇨🇾",
@@ -560,7 +560,7 @@
     ],
     "length": 10
   },
-  "CZE": {
+  {
     "name": "Czechia",
     "code": "CZE",
     "flag": "🇨🇿",
@@ -571,7 +571,7 @@
     ],
     "length": 10
   },
-  "DEU": {
+  {
     "name": "Germany",
     "code": "DEU",
     "flag": "🇩🇪",
@@ -582,7 +582,7 @@
     ],
     "length": 10
   },
-  "DJI": {
+  {
     "name": "Djibouti",
     "code": "DJI",
     "flag": "🇩🇯",
@@ -593,7 +593,7 @@
     ],
     "length": 10
   },
-  "DMA": {
+  {
     "name": "Dominica",
     "code": "DMA",
     "flag": "🇩🇲",
@@ -604,7 +604,7 @@
     ],
     "length": 10
   },
-  "DNK": {
+  {
     "name": "Denmark",
     "code": "DNK",
     "flag": "🇩🇰",
@@ -615,7 +615,7 @@
     ],
     "length": 10
   },
-  "DOM": {
+  {
     "name": "Dominican Republic",
     "code": "DOM",
     "flag": "🇩🇴",
@@ -626,7 +626,7 @@
     ],
     "length": 10
   },
-  "DZA": {
+  {
     "name": "Algeria",
     "code": "DZA",
     "flag": "🇩🇿",
@@ -637,7 +637,7 @@
     ],
     "length": 10
   },
-  "ECU": {
+  {
     "name": "Ecuador",
     "code": "ECU",
     "flag": "🇪🇨",
@@ -648,7 +648,7 @@
     ],
     "length": 10
   },
-  "EGY": {
+  {
     "name": "Egypt",
     "code": "EGY",
     "flag": "🇪🇬",
@@ -659,7 +659,7 @@
     ],
     "length": 10
   },
-  "ERI": {
+  {
     "name": "Eritrea",
     "code": "ERI",
     "flag": "🇪🇷",
@@ -670,7 +670,7 @@
     ],
     "length": 10
   },
-  "ESH": {
+  {
     "name": "Western Sahara",
     "code": "ESH",
     "flag": "🇪🇭",
@@ -681,7 +681,7 @@
     ],
     "length": 10
   },
-  "ESP": {
+  {
     "name": "Spain",
     "code": "ESP",
     "flag": "🇪🇸",
@@ -692,7 +692,7 @@
     ],
     "length": 10
   },
-  "EST": {
+  {
     "name": "Estonia",
     "code": "EST",
     "flag": "🇪🇪",
@@ -703,7 +703,7 @@
     ],
     "length": 10
   },
-  "ETH": {
+  {
     "name": "Ethiopia",
     "code": "ETH",
     "flag": "🇪🇹",
@@ -714,7 +714,7 @@
     ],
     "length": 10
   },
-  "FIN": {
+  {
     "name": "Finland",
     "code": "FIN",
     "flag": "🇫🇮",
@@ -725,7 +725,7 @@
     ],
     "length": 10
   },
-  "FJI": {
+  {
     "name": "Fiji",
     "code": "FJI",
     "flag": "🇫🇯",
@@ -736,7 +736,7 @@
     ],
     "length": 10
   },
-  "FLK": {
+  {
     "name": "Falkland Islands (Malvinas)",
     "code": "FLK",
     "flag": "🇫🇰",
@@ -747,7 +747,7 @@
     ],
     "length": 10
   },
-  "FRA": {
+  {
     "name": "France",
     "code": "FRA",
     "flag": "🇫🇷",
@@ -758,7 +758,7 @@
     ],
     "length": 10
   },
-  "FRO": {
+  {
     "name": "Faroe Islands",
     "code": "FRO",
     "flag": "🇫🇴",
@@ -769,7 +769,7 @@
     ],
     "length": 10
   },
-  "FSM": {
+  {
     "name": "Micronesia",
     "code": "FSM",
     "flag": "🇫🇲",
@@ -780,7 +780,7 @@
     ],
     "length": 10
   },
-  "GAB": {
+  {
     "name": "Gabon",
     "code": "GAB",
     "flag": "🇬🇦",
@@ -791,7 +791,7 @@
     ],
     "length": 10
   },
-  "GBR": {
+  {
     "name": "United Kingdom",
     "code": "GBR",
     "flag": "🇬🇧",
@@ -802,7 +802,7 @@
     ],
     "length": 10
   },
-  "GEO": {
+  {
     "name": "Georgia",
     "code": "GEO",
     "flag": "🇬🇪",
@@ -813,7 +813,7 @@
     ],
     "length": 10
   },
-  "GGY": {
+  {
     "name": "Guernsey",
     "code": "GGY",
     "flag": "🇬🇬",
@@ -824,7 +824,7 @@
     ],
     "length": 10
   },
-  "GHA": {
+  {
     "name": "Ghana",
     "code": "GHA",
     "flag": "🇬🇭",
@@ -835,7 +835,7 @@
     ],
     "length": 10
   },
-  "GIB": {
+  {
     "name": "Gibraltar",
     "code": "GIB",
     "flag": "🇬🇮",
@@ -846,7 +846,7 @@
     ],
     "length": 10
   },
-  "GIN": {
+  {
     "name": "Guinea",
     "code": "GIN",
     "flag": "🇬🇳",
@@ -857,7 +857,7 @@
     ],
     "length": 10
   },
-  "GLP": {
+  {
     "name": "Guadeloupe",
     "code": "GLP",
     "flag": "🇬🇵",
@@ -868,7 +868,7 @@
     ],
     "length": 10
   },
-  "GMB": {
+  {
     "name": "Gambia",
     "code": "GMB",
     "flag": "🇬🇲",
@@ -879,7 +879,7 @@
     ],
     "length": 10
   },
-  "GNB": {
+  {
     "name": "Guinea-Bissau",
     "code": "GNB",
     "flag": "🇬🇼",
@@ -890,7 +890,7 @@
     ],
     "length": 10
   },
-  "GNQ": {
+  {
     "name": "Equatorial Guinea",
     "code": "GNQ",
     "flag": "🇬🇶",
@@ -901,7 +901,7 @@
     ],
     "length": 10
   },
-  "GRC": {
+  {
     "name": "Greece",
     "code": "GRC",
     "flag": "🇬🇷",
@@ -912,7 +912,7 @@
     ],
     "length": 10
   },
-  "GRD": {
+  {
     "name": "Grenada",
     "code": "GRD",
     "flag": "🇬🇩",
@@ -923,7 +923,7 @@
     ],
     "length": 10
   },
-  "GRL": {
+  {
     "name": "Greenland",
     "code": "GRL",
     "flag": "🇬🇱",
@@ -934,7 +934,7 @@
     ],
     "length": 10
   },
-  "GTM": {
+  {
     "name": "Guatemala",
     "code": "GTM",
     "flag": "🇬🇹",
@@ -945,7 +945,7 @@
     ],
     "length": 10
   },
-  "GUF": {
+  {
     "name": "French Guiana",
     "code": "GUF",
     "flag": "🇬🇫",
@@ -956,7 +956,7 @@
     ],
     "length": 10
   },
-  "GUM": {
+  {
     "name": "Guam",
     "code": "GUM",
     "flag": "🇬🇺",
@@ -967,7 +967,7 @@
     ],
     "length": 10
   },
-  "GUY": {
+  {
     "name": "Guyana",
     "code": "GUY",
     "flag": "🇬🇾",
@@ -978,7 +978,7 @@
     ],
     "length": 10
   },
-  "HKG": {
+  {
     "name": "Hong Kong",
     "code": "HKG",
     "flag": "🇭🇰",
@@ -989,7 +989,7 @@
     ],
     "length": 10
   },
-  "HMD": {
+  {
     "name": "Heard Island and McDonald Islands",
     "code": "HMD",
     "flag": "🇭🇲",
@@ -1000,7 +1000,7 @@
     ],
     "length": 10
   },
-  "HND": {
+  {
     "name": "Honduras",
     "code": "HND",
     "flag": "🇭🇳",
@@ -1011,7 +1011,7 @@
     ],
     "length": 10
   },
-  "HRV": {
+  {
     "name": "Croatia",
     "code": "HRV",
     "flag": "🇭🇷",
@@ -1022,7 +1022,7 @@
     ],
     "length": 10
   },
-  "HTI": {
+  {
     "name": "Haiti",
     "code": "HTI",
     "flag": "🇭🇹",
@@ -1033,7 +1033,7 @@
     ],
     "length": 10
   },
-  "HUN": {
+  {
     "name": "Hungary",
     "code": "HUN",
     "flag": "🇭🇺",
@@ -1044,7 +1044,7 @@
     ],
     "length": 10
   },
-  "IDN": {
+  {
     "name": "Indonesia",
     "code": "IDN",
     "flag": "🇮🇩",
@@ -1055,7 +1055,7 @@
     ],
     "length": 10
   },
-  "IMN": {
+  {
     "name": "Isle of Man",
     "code": "IMN",
     "flag": "🇮🇲",
@@ -1066,7 +1066,7 @@
     ],
     "length": 10
   },
-  "IND": {
+  {
     "name": "India",
     "code": "IND",
     "flag": "🇮🇳",
@@ -1077,7 +1077,7 @@
     ],
     "length": 10
   },
-  "IOT": {
+  {
     "name": "British Indian Ocean Territory",
     "code": "IOT",
     "flag": "🇮🇴",
@@ -1088,7 +1088,7 @@
     ],
     "length": 10
   },
-  "IRL": {
+  {
     "name": "Ireland",
     "code": "IRL",
     "flag": "🇮🇪",
@@ -1099,7 +1099,7 @@
     ],
     "length": 10
   },
-  "IRN": {
+  {
     "name": "Iran",
     "code": "IRN",
     "flag": "🇮🇷",
@@ -1110,7 +1110,7 @@
     ],
     "length": 10
   },
-  "IRQ": {
+  {
     "name": "Iraq",
     "code": "IRQ",
     "flag": "🇮🇶",
@@ -1121,7 +1121,7 @@
     ],
     "length": 10
   },
-  "ISL": {
+  {
     "name": "Iceland",
     "code": "ISL",
     "flag": "🇮🇸",
@@ -1132,7 +1132,7 @@
     ],
     "length": 10
   },
-  "ISR": {
+  {
     "name": "Israel",
     "code": "ISR",
     "flag": "🇮🇱",
@@ -1143,7 +1143,7 @@
     ],
     "length": 10
   },
-  "ITA": {
+  {
     "name": "Italy",
     "code": "ITA",
     "flag": "🇮🇹",
@@ -1154,7 +1154,7 @@
     ],
     "length": 10
   },
-  "JAM": {
+  {
     "name": "Jamaica",
     "code": "JAM",
     "flag": "🇯🇲",
@@ -1165,7 +1165,7 @@
     ],
     "length": 10
   },
-  "JEY": {
+  {
     "name": "Jersey",
     "code": "JEY",
     "flag": "🇯🇪",
@@ -1176,7 +1176,7 @@
     ],
     "length": 10
   },
-  "JOR": {
+  {
     "name": "Jordan",
     "code": "JOR",
     "flag": "🇯🇴",
@@ -1187,7 +1187,7 @@
     ],
     "length": 10
   },
-  "JPN": {
+  {
     "name": "Japan",
     "code": "JPN",
     "flag": "🇯🇵",
@@ -1198,7 +1198,7 @@
     ],
     "length": 10
   },
-  "KAZ": {
+  {
     "name": "Kazakhstan",
     "code": "KAZ",
     "flag": "🇰🇿",
@@ -1209,7 +1209,7 @@
     ],
     "length": 10
   },
-  "KEN": {
+  {
     "name": "Kenya",
     "code": "KEN",
     "flag": "🇰🇪",
@@ -1220,7 +1220,7 @@
     ],
     "length": 10
   },
-  "KGZ": {
+  {
     "name": "Kyrgyzstan",
     "code": "KGZ",
     "flag": "🇰🇬",
@@ -1231,7 +1231,7 @@
     ],
     "length": 10
   },
-  "KHM": {
+  {
     "name": "Cambodia",
     "code": "KHM",
     "flag": "🇰🇭",
@@ -1242,7 +1242,7 @@
     ],
     "length": 10
   },
-  "KIR": {
+  {
     "name": "Kiribati",
     "code": "KIR",
     "flag": "🇰🇮",
@@ -1253,7 +1253,7 @@
     ],
     "length": 10
   },
-  "KNA": {
+  {
     "name": "Saint Kitts and Nevis",
     "code": "KNA",
     "flag": "🇰🇳",
@@ -1264,7 +1264,7 @@
     ],
     "length": 10
   },
-  "KOR": {
+  {
     "name": "Korea",
     "code": "KOR",
     "flag": "🇰🇷",
@@ -1275,7 +1275,7 @@
     ],
     "length": 10
   },
-  "KWT": {
+  {
     "name": "Kuwait",
     "code": "KWT",
     "flag": "🇰🇼",
@@ -1286,7 +1286,7 @@
     ],
     "length": 10
   },
-  "LAO": {
+  {
     "name": "Lao People's Democratic Republic",
     "code": "LAO",
     "flag": "🇱🇦",
@@ -1297,7 +1297,7 @@
     ],
     "length": 10
   },
-  "LBN": {
+  {
     "name": "Lebanon",
     "code": "LBN",
     "flag": "🇱🇧",
@@ -1308,7 +1308,7 @@
     ],
     "length": 10
   },
-  "LBR": {
+  {
     "name": "Liberia",
     "code": "LBR",
     "flag": "🇱🇷",
@@ -1319,7 +1319,7 @@
     ],
     "length": 10
   },
-  "LBY": {
+  {
     "name": "Libya",
     "code": "LBY",
     "flag": "🇱🇾",
@@ -1330,7 +1330,7 @@
     ],
     "length": 10
   },
-  "LCA": {
+  {
     "name": "Saint Lucia",
     "code": "LCA",
     "flag": "🇱🇨",
@@ -1341,7 +1341,7 @@
     ],
     "length": 10
   },
-  "LIE": {
+  {
     "name": "Liechtenstein",
     "code": "LIE",
     "flag": "🇱🇮",
@@ -1352,7 +1352,7 @@
     ],
     "length": 10
   },
-  "LKA": {
+  {
     "name": "Sri Lanka",
     "code": "LKA",
     "flag": "🇱🇰",
@@ -1363,7 +1363,7 @@
     ],
     "length": 10
   },
-  "LSO": {
+  {
     "name": "Lesotho",
     "code": "LSO",
     "flag": "🇱🇸",
@@ -1374,7 +1374,7 @@
     ],
     "length": 10
   },
-  "LTU": {
+  {
     "name": "Lithuania",
     "code": "LTU",
     "flag": "🇱🇹",
@@ -1385,7 +1385,7 @@
     ],
     "length": 10
   },
-  "LUX": {
+  {
     "name": "Luxembourg",
     "code": "LUX",
     "flag": "🇱🇺",
@@ -1396,7 +1396,7 @@
     ],
     "length": 10
   },
-  "LVA": {
+  {
     "name": "Latvia",
     "code": "LVA",
     "flag": "🇱🇻",
@@ -1407,7 +1407,7 @@
     ],
     "length": 10
   },
-  "MAC": {
+  {
     "name": "Macao",
     "code": "MAC",
     "flag": "🇲🇴",
@@ -1418,7 +1418,7 @@
     ],
     "length": 10
   },
-  "MAR": {
+  {
     "name": "Morocco",
     "code": "MAR",
     "flag": "🇲🇦",
@@ -1429,7 +1429,7 @@
     ],
     "length": 10
   },
-  "MCO": {
+  {
     "name": "Monaco",
     "code": "MCO",
     "flag": "🇲🇨",
@@ -1440,7 +1440,7 @@
     ],
     "length": 10
   },
-  "MDA": {
+  {
     "name": "Moldova",
     "code": "MDA",
     "flag": "🇲🇩",
@@ -1451,7 +1451,7 @@
     ],
     "length": 10
   },
-  "MDG": {
+  {
     "name": "Madagascar",
     "code": "MDG",
     "flag": "🇲🇬",
@@ -1462,7 +1462,7 @@
     ],
     "length": 10
   },
-  "MDV": {
+  {
     "name": "Maldives",
     "code": "MDV",
     "flag": "🇲🇻",
@@ -1473,7 +1473,7 @@
     ],
     "length": 10
   },
-  "MEX": {
+  {
     "name": "Mexico",
     "code": "MEX",
     "flag": "🇲🇽",
@@ -1484,7 +1484,7 @@
     ],
     "length": 10
   },
-  "MHL": {
+  {
     "name": "Marshall Islands",
     "code": "MHL",
     "flag": "🇲🇭",
@@ -1495,7 +1495,7 @@
     ],
     "length": 10
   },
-  "MKD": {
+  {
     "name": "North Macedonia",
     "code": "MKD",
     "flag": "🇲🇰",
@@ -1506,7 +1506,7 @@
     ],
     "length": 10
   },
-  "MLI": {
+  {
     "name": "Mali",
     "code": "MLI",
     "flag": "🇲🇱",
@@ -1517,7 +1517,7 @@
     ],
     "length": 10
   },
-  "MLT": {
+  {
     "name": "Malta",
     "code": "MLT",
     "flag": "🇲🇹",
@@ -1528,7 +1528,7 @@
     ],
     "length": 10
   },
-  "MNG": {
+  {
     "name": "Mongolia",
     "code": "MNG",
     "flag": "🇲🇳",
@@ -1539,7 +1539,7 @@
     ],
     "length": 10
   },
-  "MNP": {
+  {
     "name": "Northern Mariana Islands",
     "code": "MNP",
     "flag": "🇲🇵",
@@ -1550,7 +1550,7 @@
     ],
     "length": 10
   },
-  "MOZ": {
+  {
     "name": "Mozambique",
     "code": "MOZ",
     "flag": "🇲🇿",
@@ -1561,7 +1561,7 @@
     ],
     "length": 10
   },
-  "MRT": {
+  {
     "name": "Mauritania",
     "code": "MRT",
     "flag": "🇲🇷",
@@ -1572,7 +1572,7 @@
     ],
     "length": 10
   },
-  "MSR": {
+  {
     "name": "Montserrat",
     "code": "MSR",
     "flag": "🇲🇸",
@@ -1583,7 +1583,7 @@
     ],
     "length": 10
   },
-  "MTQ": {
+  {
     "name": "Martinique",
     "code": "MTQ",
     "flag": "🇲🇶",
@@ -1594,7 +1594,7 @@
     ],
     "length": 10
   },
-  "MUS": {
+  {
     "name": "Mauritius",
     "code": "MUS",
     "flag": "🇲🇺",
@@ -1605,7 +1605,7 @@
     ],
     "length": 10
   },
-  "MWI": {
+  {
     "name": "Malawi",
     "code": "MWI",
     "flag": "🇲🇼",
@@ -1616,7 +1616,7 @@
     ],
     "length": 10
   },
-  "MYS": {
+  {
     "name": "Malaysia",
     "code": "MYS",
     "flag": "🇲🇾",
@@ -1627,7 +1627,7 @@
     ],
     "length": 10
   },
-  "MYT": {
+  {
     "name": "Mayotte",
     "code": "MYT",
     "flag": "🇾🇹",
@@ -1638,7 +1638,7 @@
     ],
     "length": 10
   },
-  "NAM": {
+  {
     "name": "Namibia",
     "code": "NAM",
     "flag": "🇳🇦",
@@ -1649,7 +1649,7 @@
     ],
     "length": 10
   },
-  "NCL": {
+  {
     "name": "New Caledonia",
     "code": "NCL",
     "flag": "🇳🇨",
@@ -1660,7 +1660,7 @@
     ],
     "length": 10
   },
-  "NER": {
+  {
     "name": "Niger",
     "code": "NER",
     "flag": "🇳🇪",
@@ -1671,7 +1671,7 @@
     ],
     "length": 10
   },
-  "NFK": {
+  {
     "name": "Norfolk Island",
     "code": "NFK",
     "flag": "🇳🇫",
@@ -1682,7 +1682,7 @@
     ],
     "length": 10
   },
-  "NGA": {
+  {
     "name": "Nigeria",
     "code": "NGA",
     "flag": "🇳🇬",
@@ -1693,7 +1693,7 @@
     ],
     "length": 10
   },
-  "NIC": {
+  {
     "name": "Nicaragua",
     "code": "NIC",
     "flag": "🇳🇮",
@@ -1704,7 +1704,7 @@
     ],
     "length": 10
   },
-  "NIU": {
+  {
     "name": "Niue",
     "code": "NIU",
     "flag": "🇳🇺",
@@ -1715,7 +1715,7 @@
     ],
     "length": 10
   },
-  "NLD": {
+  {
     "name": "Netherlands",
     "code": "NLD",
     "flag": "🇳🇱",
@@ -1726,7 +1726,7 @@
     ],
     "length": 10
   },
-  "NOR": {
+  {
     "name": "Norway",
     "code": "NOR",
     "flag": "🇳🇴",
@@ -1737,7 +1737,7 @@
     ],
     "length": 10
   },
-  "NPL": {
+  {
     "name": "Nepal",
     "code": "NPL",
     "flag": "🇳🇵",
@@ -1748,7 +1748,7 @@
     ],
     "length": 10
   },
-  "NRU": {
+  {
     "name": "Nauru",
     "code": "NRU",
     "flag": "🇳🇷",
@@ -1759,7 +1759,7 @@
     ],
     "length": 10
   },
-  "NZL": {
+  {
     "name": "New Zealand",
     "code": "NZL",
     "flag": "🇳🇿",
@@ -1770,7 +1770,7 @@
     ],
     "length": 10
   },
-  "OMN": {
+  {
     "name": "Oman",
     "code": "OMN",
     "flag": "🇴🇲",
@@ -1781,7 +1781,7 @@
     ],
     "length": 10
   },
-  "PAK": {
+  {
     "name": "Pakistan",
     "code": "PAK",
     "flag": "🇵🇰",
@@ -1792,7 +1792,7 @@
     ],
     "length": 10
   },
-  "PAN": {
+  {
     "name": "Panama",
     "code": "PAN",
     "flag": "🇵🇦",
@@ -1803,7 +1803,7 @@
     ],
     "length": 10
   },
-  "PCN": {
+  {
     "name": "Pitcairn",
     "code": "PCN",
     "flag": "🇵🇳",
@@ -1814,7 +1814,7 @@
     ],
     "length": 10
   },
-  "PER": {
+  {
     "name": "Peru",
     "code": "PER",
     "flag": "🇵🇪",
@@ -1825,7 +1825,7 @@
     ],
     "length": 10
   },
-  "PHL": {
+  {
     "name": "Philippines",
     "code": "PHL",
     "flag": "🇵🇭",
@@ -1836,7 +1836,7 @@
     ],
     "length": 10
   },
-  "PLW": {
+  {
     "name": "Palau",
     "code": "PLW",
     "flag": "🇵🇼",
@@ -1847,7 +1847,7 @@
     ],
     "length": 10
   },
-  "PNG": {
+  {
     "name": "Papua New Guinea",
     "code": "PNG",
     "flag": "🇵🇬",
@@ -1858,7 +1858,7 @@
     ],
     "length": 10
   },
-  "POL": {
+  {
     "name": "Poland",
     "code": "POL",
     "flag": "🇵🇱",
@@ -1869,7 +1869,7 @@
     ],
     "length": 10
   },
-  "PRI": {
+  {
     "name": "Puerto Rico",
     "code": "PRI",
     "flag": "🇵🇷",
@@ -1880,7 +1880,7 @@
     ],
     "length": 10
   },
-  "PRK": {
+  {
     "name": "Korea",
     "code": "PRK",
     "flag": "🇰🇵",
@@ -1891,7 +1891,7 @@
     ],
     "length": 10
   },
-  "PRT": {
+  {
     "name": "Portugal",
     "code": "PRT",
     "flag": "🇵🇹",
@@ -1902,7 +1902,7 @@
     ],
     "length": 10
   },
-  "PRY": {
+  {
     "name": "Paraguay",
     "code": "PRY",
     "flag": "🇵🇾",
@@ -1913,7 +1913,7 @@
     ],
     "length": 10
   },
-  "PYF": {
+  {
     "name": "French Polynesia",
     "code": "PYF",
     "flag": "🇵🇫",
@@ -1924,7 +1924,7 @@
     ],
     "length": 10
   },
-  "QAT": {
+  {
     "name": "Qatar",
     "code": "QAT",
     "flag": "🇶🇦",
@@ -1935,7 +1935,7 @@
     ],
     "length": 10
   },
-  "REU": {
+  {
     "name": "Réunion",
     "code": "REU",
     "flag": "🇷🇪",
@@ -1946,7 +1946,7 @@
     ],
     "length": 10
   },
-  "ROU": {
+  {
     "name": "Romania",
     "code": "ROU",
     "flag": "🇷🇴",
@@ -1957,7 +1957,7 @@
     ],
     "length": 10
   },
-  "RUS": {
+  {
     "name": "Russian Federation",
     "code": "RUS",
     "flag": "🇷🇺",
@@ -1968,7 +1968,7 @@
     ],
     "length": 10
   },
-  "RWA": {
+  {
     "name": "Rwanda",
     "code": "RWA",
     "flag": "🇷🇼",
@@ -1979,7 +1979,7 @@
     ],
     "length": 10
   },
-  "SAU": {
+  {
     "name": "Saudi Arabia",
     "code": "SAU",
     "flag": "🇸🇦",
@@ -1990,7 +1990,7 @@
     ],
     "length": 10
   },
-  "SDN": {
+  {
     "name": "Sudan",
     "code": "SDN",
     "flag": "🇸🇩",
@@ -2001,7 +2001,7 @@
     ],
     "length": 10
   },
-  "SEN": {
+  {
     "name": "Senegal",
     "code": "SEN",
     "flag": "🇸🇳",
@@ -2012,7 +2012,7 @@
     ],
     "length": 10
   },
-  "SGP": {
+  {
     "name": "Singapore",
     "code": "SGP",
     "flag": "🇸🇬",
@@ -2023,7 +2023,7 @@
     ],
     "length": 10
   },
-  "SGS": {
+  {
     "name": "South Georgia and the South Sandwich Islands",
     "code": "SGS",
     "flag": "🇬🇸",
@@ -2034,7 +2034,7 @@
     ],
     "length": 10
   },
-  "SHN": {
+  {
     "name": "Saint Helena",
     "code": "SHN",
     "flag": "🇸🇭",
@@ -2045,7 +2045,7 @@
     ],
     "length": 10
   },
-  "SJM": {
+  {
     "name": "Svalbard and Jan Mayen",
     "code": "SJM",
     "flag": "🇸🇯",
@@ -2056,7 +2056,7 @@
     ],
     "length": 10
   },
-  "SLB": {
+  {
     "name": "Solomon Islands",
     "code": "SLB",
     "flag": "🇸🇧",
@@ -2067,7 +2067,7 @@
     ],
     "length": 10
   },
-  "SLE": {
+  {
     "name": "Sierra Leone",
     "code": "SLE",
     "flag": "🇸🇱",
@@ -2078,7 +2078,7 @@
     ],
     "length": 10
   },
-  "SLV": {
+  {
     "name": "El Salvador",
     "code": "SLV",
     "flag": "🇸🇻",
@@ -2089,7 +2089,7 @@
     ],
     "length": 10
   },
-  "SMR": {
+  {
     "name": "San Marino",
     "code": "SMR",
     "flag": "🇸🇲",
@@ -2100,7 +2100,7 @@
     ],
     "length": 10
   },
-  "SOM": {
+  {
     "name": "Somalia",
     "code": "SOM",
     "flag": "🇸🇴",
@@ -2111,7 +2111,7 @@
     ],
     "length": 10
   },
-  "SPM": {
+  {
     "name": "Saint Pierre and Miquelon",
     "code": "SPM",
     "flag": "🇵🇲",
@@ -2122,7 +2122,7 @@
     ],
     "length": 10
   },
-  "SSD": {
+  {
     "name": "South Sudan",
     "code": "SSD",
     "flag": "🇸🇸",
@@ -2133,7 +2133,7 @@
     ],
     "length": 10
   },
-  "STP": {
+  {
     "name": "Sao Tome and Principe",
     "code": "STP",
     "flag": "🇸🇹",
@@ -2144,7 +2144,7 @@
     ],
     "length": 10
   },
-  "SUR": {
+  {
     "name": "Suriname",
     "code": "SUR",
     "flag": "🇸🇷",
@@ -2155,7 +2155,7 @@
     ],
     "length": 10
   },
-  "SVK": {
+  {
     "name": "Slovakia",
     "code": "SVK",
     "flag": "🇸🇰",
@@ -2166,7 +2166,7 @@
     ],
     "length": 10
   },
-  "SVN": {
+  {
     "name": "Slovenia",
     "code": "SVN",
     "flag": "🇸🇮",
@@ -2177,7 +2177,7 @@
     ],
     "length": 10
   },
-  "SWE": {
+  {
     "name": "Sweden",
     "code": "SWE",
     "flag": "🇸🇪",
@@ -2188,7 +2188,7 @@
     ],
     "length": 10
   },
-  "SWZ": {
+  {
     "name": "Eswatini",
     "code": "SWZ",
     "flag": "🇸🇿",
@@ -2199,7 +2199,7 @@
     ],
     "length": 10
   },
-  "SYC": {
+  {
     "name": "Seychelles",
     "code": "SYC",
     "flag": "🇸🇨",
@@ -2210,7 +2210,7 @@
     ],
     "length": 10
   },
-  "SYR": {
+  {
     "name": "Syrian Arab Republic",
     "code": "SYR",
     "flag": "🇸🇾",
@@ -2221,7 +2221,7 @@
     ],
     "length": 10
   },
-  "TCD": {
+  {
     "name": "Chad",
     "code": "TCD",
     "flag": "🇹🇩",
@@ -2232,7 +2232,7 @@
     ],
     "length": 10
   },
-  "TGO": {
+  {
     "name": "Togo",
     "code": "TGO",
     "flag": "🇹🇬",
@@ -2243,7 +2243,7 @@
     ],
     "length": 10
   },
-  "THA": {
+  {
     "name": "Thailand",
     "code": "THA",
     "flag": "🇹🇭",
@@ -2254,7 +2254,7 @@
     ],
     "length": 10
   },
-  "TJK": {
+  {
     "name": "Tajikistan",
     "code": "TJK",
     "flag": "🇹🇯",
@@ -2265,7 +2265,7 @@
     ],
     "length": 10
   },
-  "TKL": {
+  {
     "name": "Tokelau",
     "code": "TKL",
     "flag": "🇹🇰",
@@ -2276,7 +2276,7 @@
     ],
     "length": 10
   },
-  "TKM": {
+  {
     "name": "Turkmenistan",
     "code": "TKM",
     "flag": "🇹🇲",
@@ -2287,7 +2287,7 @@
     ],
     "length": 10
   },
-  "TLS": {
+  {
     "name": "Timor-Leste",
     "code": "TLS",
     "flag": "🇹🇱",
@@ -2298,7 +2298,7 @@
     ],
     "length": 10
   },
-  "TON": {
+  {
     "name": "Tonga",
     "code": "TON",
     "flag": "🇹🇴",
@@ -2309,7 +2309,7 @@
     ],
     "length": 10
   },
-  "TTO": {
+  {
     "name": "Trinidad and Tobago",
     "code": "TTO",
     "flag": "🇹🇹",
@@ -2320,7 +2320,7 @@
     ],
     "length": 10
   },
-  "TUN": {
+  {
     "name": "Tunisia",
     "code": "TUN",
     "flag": "🇹🇳",
@@ -2331,7 +2331,7 @@
     ],
     "length": 10
   },
-  "TUR": {
+  {
     "name": "Turkey",
     "code": "TUR",
     "flag": "🇹🇷",
@@ -2342,7 +2342,7 @@
     ],
     "length": 10
   },
-  "TUV": {
+  {
     "name": "Tuvalu",
     "code": "TUV",
     "flag": "🇹🇻",
@@ -2353,7 +2353,7 @@
     ],
     "length": 10
   },
-  "TWN": {
+  {
     "name": "Taiwan",
     "code": "TWN",
     "flag": "🇹🇼",
@@ -2364,7 +2364,7 @@
     ],
     "length": 10
   },
-  "TZA": {
+  {
     "name": "Tanzania",
     "code": "TZA",
     "flag": "🇹🇿",
@@ -2375,7 +2375,7 @@
     ],
     "length": 10
   },
-  "UGA": {
+  {
     "name": "Uganda",
     "code": "UGA",
     "flag": "🇺🇬",
@@ -2386,7 +2386,7 @@
     ],
     "length": 10
   },
-  "UKR": {
+  {
     "name": "Ukraine",
     "code": "UKR",
     "flag": "🇺🇦",
@@ -2397,7 +2397,7 @@
     ],
     "length": 10
   },
-  "URY": {
+  {
     "name": "Uruguay",
     "code": "URY",
     "flag": "🇺🇾",
@@ -2408,7 +2408,7 @@
     ],
     "length": 10
   },
-  "USA": {
+  {
     "name": "United States",
     "code": "USA",
     "flag": "🇺🇸",
@@ -2419,7 +2419,7 @@
     ],
     "length": 10
   },
-  "UZB": {
+  {
     "name": "Uzbekistan",
     "code": "UZB",
     "flag": "🇺🇿",
@@ -2430,7 +2430,7 @@
     ],
     "length": 10
   },
-  "VCT": {
+  {
     "name": "Saint Vincent and the Grenadines",
     "code": "VCT",
     "flag": "🇻🇨",
@@ -2441,7 +2441,7 @@
     ],
     "length": 10
   },
-  "VEN": {
+  {
     "name": "Venezuela",
     "code": "VEN",
     "flag": "🇻🇪",
@@ -2452,7 +2452,7 @@
     ],
     "length": 10
   },
-  "VNM": {
+  {
     "name": "Vietnam",
     "code": "VNM",
     "flag": "🇻🇳",
@@ -2463,7 +2463,7 @@
     ],
     "length": 10
   },
-  "VUT": {
+  {
     "name": "Vanuatu",
     "code": "VUT",
     "flag": "🇻🇺",
@@ -2474,7 +2474,7 @@
     ],
     "length": 10
   },
-  "WLF": {
+  {
     "name": "Wallis and Futuna",
     "code": "WLF",
     "flag": "🇼🇫",
@@ -2485,7 +2485,7 @@
     ],
     "length": 10
   },
-  "WSM": {
+  {
     "name": "Samoa",
     "code": "WSM",
     "flag": "🇼🇸",
@@ -2496,7 +2496,7 @@
     ],
     "length": 10
   },
-  "YEM": {
+  {
     "name": "Yemen",
     "code": "YEM",
     "flag": "🇾🇪",
@@ -2507,7 +2507,7 @@
     ],
     "length": 10
   },
-  "ZAF": {
+  {
     "name": "South Africa",
     "code": "ZAF",
     "flag": "🇿🇦",
@@ -2518,7 +2518,7 @@
     ],
     "length": 10
   },
-  "ZMB": {
+  {
     "name": "Zambia",
     "code": "ZMB",
     "flag": "🇿🇲",
@@ -2529,7 +2529,7 @@
     ],
     "length": 10
   },
-  "ZWE": {
+  {
     "name": "Zimbabwe",
     "code": "ZWE",
     "flag": "🇿🇼",
@@ -2540,4 +2540,4 @@
     ],
     "length": 10
   }
-}
+]

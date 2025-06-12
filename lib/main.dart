@@ -1,69 +1,67 @@
-import 'package:beyond/routes/app_router.dart';
 import 'package:beyond/injection/app_injection.dart';
-import 'package:beyond/themes/app_theme.dart';
-import 'package:beyond/themes/theme_cubit.dart';
-import 'package:beyond/translation/app_translation.dart';
-import 'package:beyond/translation/language_cubit.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hydrated_bloc/hydrated_bloc.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:responsive_framework/responsive_framework.dart';
 
+import 'app.dart';
+import 'core/errors/error_reporter.dart';
 import 'firebase_options.dart';
+import 'dart:async';
 
-void main() => initializeApplication().then((value) => runApp(MyApp()));
+void main() => AppRunner(pipeline: errorPipeline).run();
 
-Future<void> initializeApplication() async {
-  WidgetsFlutterBinding.ensureInitialized();
+final errorPipeline = ErrorPipeline([ConsoleReporter()]);
 
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+class AppRunner {
+  final ErrorPipeline _pipeline;
 
-  HydratedBloc.storage = await HydratedStorage.build(
-    storageDirectory: kIsWeb
-        ? HydratedStorageDirectory.web
-        : HydratedStorageDirectory((await getTemporaryDirectory()).path),
-  );
+  AppRunner({required ErrorPipeline pipeline}) : _pipeline = pipeline;
 
-  configureDependencies();
-}
+  Future<void> run() async {
+    runZonedGuarded(
+      () async {
+        WidgetsFlutterBinding.ensureInitialized();
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+        _attachErrorHooks();
 
-  @override
-  Widget build(BuildContext context) {
-    return MultiBlocProvider(
-      providers: [
-        BlocProvider.value(value: getIt<ThemeCubit>()),
-        BlocProvider.value(value: getIt<LanguageCubit>()),
-      ],
-      child: BlocBuilder<LanguageCubit, Locale>(
-        builder: (_, locale) {
-          return BlocBuilder<ThemeCubit, AppTheme>(
-            builder: (_, appTheme) {
-              return MaterialApp.router(
-                routerConfig: router,
-                theme: appTheme.themeData(),
-                locale: locale,
-                localizationsDelegates: AppLocalizations.localizationsDelegates,
-                supportedLocales: AppLocalizations.supportedLocales,
-                builder: (context, child) => ResponsiveBreakpoints.builder(
-                  child: child!,
-                  breakpoints: [
-                    const Breakpoint(start: 0, end: 450, name: MOBILE),
-                    const Breakpoint(start: 451, end: 800, name: TABLET),
-                    const Breakpoint(start: 801, end: 1920, name: DESKTOP),
-                    const Breakpoint(start: 1921, end: double.infinity, name: '4K'),
-                  ],
-                ),
-              );
-            },
-          );
-        },
-      ),
+        await _initializeDependencies();
+
+        runApp(const App());
+      },
+      (error, stack) {
+        _pipeline.dispatch(error, stack, tag: 'zone');
+      },
     );
+  }
+
+  Future<void> _initializeDependencies() async {
+    await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+
+    HydratedBloc.storage = await HydratedStorage.build(
+      storageDirectory: kIsWeb
+          ? HydratedStorageDirectory.web
+          : HydratedStorageDirectory((await getTemporaryDirectory()).path),
+    );
+
+    configureDependencies();
+  }
+
+  void _attachErrorHooks() {
+    FlutterError.onError = (details) {
+      FlutterError.dumpErrorToConsole(details);
+      _pipeline.dispatch(details.exception, details.stack ?? StackTrace.current, tag: 'flutter');
+    };
+
+    PlatformDispatcher.instance.onError = (error, stack) {
+      _pipeline.dispatch(error, stack, tag: 'dispatcher');
+      return true;
+    };
+
+    ErrorWidget.builder = (details) {
+      const prod = bool.fromEnvironment('dart.vm.product');
+      return prod ? const Center(child: Text('Something went wrong 🥲')) : ErrorWidget(details.exception);
+    };
   }
 }

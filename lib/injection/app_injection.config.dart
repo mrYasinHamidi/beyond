@@ -14,6 +14,8 @@ import 'package:get_it/get_it.dart' as _i174;
 import 'package:injectable/injectable.dart' as _i526;
 
 import '../features/auth/data/data_source/auth_data_source.dart' as _i1028;
+import '../features/auth/data/repository/auth_repository.dart' as _i570;
+import '../features/auth/domain/use_cases/get_countries.dart' as _i145;
 import '../features/auth/presentation/login/cubit/login_cubit.dart' as _i326;
 import '../themes/theme_cubit.dart' as _i965;
 import '../translation/language_cubit.dart' as _i134;
@@ -27,7 +29,6 @@ extension GetItInjectableX on _i174.GetIt {
   }) {
     final gh = _i526.GetItHelper(this, environment, environmentFilter);
     final registerModule = _$RegisterModule();
-    gh.factory<_i326.LoginCubit>(() => _i326.LoginCubit());
     gh.singleton<_i59.FirebaseAuth>(() => registerModule.firebaseAuth);
     gh.singleton<_i965.ThemeCubit>(
       () => _i965.ThemeCubit(),
@@ -39,6 +40,17 @@ extension GetItInjectableX on _i174.GetIt {
     );
     gh.singleton<_i1028.AuthDataSource>(
       () => _i1028.AuthDataSource(firebaseAuth: gh<_i59.FirebaseAuth>()),
+    );
+    gh.singleton<_i570.AuthRepository>(
+      () => _i570.AuthRepository(dataSource: gh<_i1028.AuthDataSource>()),
+    );
+    gh.factory<_i145.GetCountries>(
+      () => _i145.GetCountries(repository: gh<_i570.AuthRepository>()),
+    );
+    gh.factory<_i326.LoginCubit>(
+      () =>
+          _i326.LoginCubit(getCountries: gh<_i145.GetCountries>())
+            ..initialize(),
     );
     return this;
   }

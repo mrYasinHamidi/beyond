@@ -1,13 +1,16 @@
+import 'package:beyond/features/auth/domain/entities/country/country.dart';
 import 'package:flutter/material.dart';
 
 class CountrySelectorButton extends StatelessWidget {
-  const CountrySelectorButton({super.key});
+  final Country? selected;
+
+  const CountrySelectorButton({super.key, this.selected});
 
   @override
   Widget build(BuildContext context) {
     return TextFormField(
       decoration: InputDecoration(suffixIcon: Icon(Icons.keyboard_arrow_down_rounded)),
-      initialValue: 'Iran',
+      initialValue: selected?.name,
       readOnly: true,
     );
   }

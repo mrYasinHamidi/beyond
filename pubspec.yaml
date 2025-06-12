@@ -31,6 +31,11 @@ dependencies:
   gap: ^3.0.1
   responsive_framework: ^1.5.1
   flex_color_scheme: ^8.2.0
+  json_annotation: ^4.9.0
+  dartz: ^0.10.1
+  equatable: ^2.0.7
+  flutter_sim_country_code: ^0.1.2
+  collection: ^1.19.1
 
 dev_dependencies:
   flutter_test:
@@ -38,6 +43,7 @@ dev_dependencies:
   injectable_generator: ^2.7.0
   build_runner: ^2.4.15
   flutter_lints: ^5.0.0
+  json_serializable: ^6.9.5
 
 flutter:
   generate: true
