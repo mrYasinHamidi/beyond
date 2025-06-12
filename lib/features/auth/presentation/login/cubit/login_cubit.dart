@@ -26,8 +26,14 @@ class LoginCubit extends Cubit<LoginState> {
 
     _countries = result.fold((l) => null, (r) => r);
 
-    selectedCountry = await _countries?.findUserCountry();
+    final userCountry = await _countries?.findUserCountry();
 
+    setCountry(userCountry);
+  }
+
+  void setCountry(Country? country) {
+    selectedCountry = country;
+    countryCodeController.text = country?.dialCode ?? '';
     emit(CountryState(country: selectedCountry));
   }
 

@@ -67,7 +67,7 @@ class _LoginPageMobileState extends State<_LoginPageMobile> {
                   ),
                   Gap(8),
                   Text('Please confirm your country code\nand enter your phone number.'),
-                  const Spacer(),
+                  const Gap(64),
                   BlocBuilder<LoginCubit, LoginState>(
                     buildWhen: (_, state) => state is CountryState,
                     builder: (_, state) {
