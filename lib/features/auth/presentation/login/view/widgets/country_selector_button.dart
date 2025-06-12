@@ -9,8 +9,9 @@ class CountrySelectorButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextFormField(
+      key: ValueKey(selected),
       decoration: InputDecoration(suffixIcon: Icon(Icons.keyboard_arrow_down_rounded)),
-      initialValue: selected?.name,
+      initialValue: "${selected?.flag ?? ''} ${selected?.name ?? ''}",
       readOnly: true,
     );
   }

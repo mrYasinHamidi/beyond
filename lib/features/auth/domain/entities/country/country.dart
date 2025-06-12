@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:beyond/main.dart';
 import 'package:collection/collection.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter_sim_country_code/flutter_sim_country_code.dart';
@@ -51,7 +52,9 @@ extension CountryListX on List<Country> {
 
   Future<Country?> findUserCountry() async {
     final countryCode = await findUserCountryCode();
-    final userCountry = firstWhereOrNull((country) => country.code == countryCode);
+    if (countryCode == null) return null;
+
+    final userCountry = firstWhereOrNull((country) => country.code.startsWith(countryCode));
     return userCountry;
   }
 }

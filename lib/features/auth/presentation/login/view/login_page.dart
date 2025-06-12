@@ -68,7 +68,12 @@ class _LoginPageMobileState extends State<_LoginPageMobile> {
                   Gap(8),
                   Text('Please confirm your country code\nand enter your phone number.'),
                   const Spacer(),
-                  CountrySelectorButton(),
+                  BlocBuilder<LoginCubit, LoginState>(
+                    buildWhen: (_, state) => state is CountryState,
+                    builder: (_, state) {
+                      return CountrySelectorButton(selected: cubit.selectedCountry);
+                    },
+                  ),
                   Gap(8),
                   Row(
                     children: [
@@ -77,10 +82,7 @@ class _LoginPageMobileState extends State<_LoginPageMobile> {
                           controller: cubit.countryCodeController,
                           textAlign: TextAlign.center,
                           inputFormatters: [FixedPrefixFormatter('+')],
-                          decoration: InputDecoration(
-                            contentPadding: EdgeInsets.fromLTRB(0, 20, 0, 12),
-                            isDense: true,
-                          ),
+                          decoration: InputDecoration(contentPadding: EdgeInsets.fromLTRB(0, 20, 0, 12), isDense: true),
                           keyboardType: TextInputType.number,
                         ),
                       ),
