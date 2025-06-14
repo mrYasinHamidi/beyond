@@ -45,8 +45,6 @@ PODS:
     - GoogleUtilities/Environment (~> 8.0)
     - GTMSessionFetcher/Core (< 5.0, >= 3.4)
   - Flutter (1.0.0)
-  - flutter_sim_country_code (0.0.1):
-    - Flutter
   - GoogleUtilities/AppDelegateSwizzler (8.1.0):
     - GoogleUtilities/Environment
     - GoogleUtilities/Logger
@@ -73,14 +71,16 @@ PODS:
     - Flutter
     - FlutterMacOS
   - RecaptchaInterop (101.0.0)
+  - sim_card_info (0.0.1):
+    - Flutter
 
 DEPENDENCIES:
   - firebase_auth (from `.symlinks/plugins/firebase_auth/ios`)
   - firebase_core (from `.symlinks/plugins/firebase_core/ios`)
   - firebase_storage (from `.symlinks/plugins/firebase_storage/ios`)
   - Flutter (from `Flutter`)
-  - flutter_sim_country_code (from `.symlinks/plugins/flutter_sim_country_code/ios`)
   - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - sim_card_info (from `.symlinks/plugins/sim_card_info/ios`)
 
 SPEC REPOS:
   trunk:
@@ -105,10 +105,10 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/firebase_storage/ios"
   Flutter:
     :path: Flutter
-  flutter_sim_country_code:
-    :path: ".symlinks/plugins/flutter_sim_country_code/ios"
   path_provider_foundation:
     :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  sim_card_info:
+    :path: ".symlinks/plugins/sim_card_info/ios"
 
 SPEC CHECKSUMS:
   Firebase: 1fe1c0a7d9aaea32efe01fbea5f0ebd8d70e53a2
@@ -123,11 +123,11 @@ SPEC CHECKSUMS:
   FirebaseCoreInternal: ef4505d2afb1d0ebbc33162cb3795382904b5679
   FirebaseStorage: e83d1b9c8a5318d46ccfb2955f0d98095e0bf598
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
-  flutter_sim_country_code: 364e91e71f067cdec1dd1228eb4d1f13ab1a54e5
   GoogleUtilities: 00c88b9a86066ef77f0da2fab05f65d7768ed8e1
   GTMSessionFetcher: 75b671f9e551e4c49153d4c4f8659ef4f559b970
   path_provider_foundation: 2b6b4c569c0fb62ec74538f866245ac84301af46
   RecaptchaInterop: 11e0b637842dfb48308d242afc3f448062325aba
+  sim_card_info: 4b5aa5d5f4633b5b439caf29d295e17f3aa9795d
 
 PODFILE CHECKSUM: 4305caec6b40dde0ae97be1573c53de1882a07e5
 

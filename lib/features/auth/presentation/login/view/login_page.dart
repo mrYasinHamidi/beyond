@@ -1,6 +1,8 @@
+import 'package:animations/animations.dart';
 import 'package:beyond/core/utils/fixed_prefix_formatter.dart';
 import 'package:beyond/core/widgets/responsive_page.dart';
 import 'package:beyond/features/auth/presentation/login/cubit/login_cubit.dart';
+import 'package:beyond/features/auth/presentation/login/view/dialogs/select_country_dialog.dart';
 import 'package:beyond/features/auth/presentation/login/view/widgets/country_selector_button.dart';
 import 'package:beyond/features/auth/presentation/login/view/widgets/number_keyboard.dart';
 import 'package:beyond/core/widgets/phone_field.dart';
@@ -12,14 +14,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:gap/gap.dart';
+import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return BlocProvider<LoginCubit>(
-      create: (BuildContext context) => getIt(),
+    return BlocProvider<LoginCubit>.value(
+      value: getIt(),
       child: ResponsivePage(mobileView: _LoginPageMobile()),
     );
   }
@@ -68,16 +71,27 @@ class _LoginPageMobileState extends State<_LoginPageMobile> {
                   Gap(8),
                   Text('Please confirm your country code\nand enter your phone number.'),
                   const Gap(64),
-                  BlocBuilder<LoginCubit, LoginState>(
-                    buildWhen: (_, state) => state is CountryState,
-                    builder: (_, state) {
-                      return CountrySelectorButton(selected: cubit.selectedCountry);
-                    },
+                  OpenContainer(
+                    closedColor: context.theme.colorScheme.surface,
+                    closedElevation: 0,
+                    openColor: Colors.transparent,
+                    middleColor: Colors.red,
+                    openShape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(32)),
+                    openElevation: 0,
+                    closedBuilder: (context, action) => BlocBuilder<LoginCubit, LoginState>(
+                      bloc: cubit,
+                      buildWhen: (_, state) => state is CountryState,
+                      builder: (_, state) {
+                        return CountrySelectorButton(selected: cubit.selectedCountry, onTap: action);
+                      },
+                    ),
+                    openBuilder: (context, action) => BlocProvider.value(value: cubit, child: SelectCountryDialog()),
                   ),
                   Gap(8),
                   Row(
                     children: [
-                      Expanded(
+                      SizedBox(
+                        width: 80,
                         child: TextFormField(
                           controller: cubit.countryCodeController,
                           textAlign: TextAlign.center,

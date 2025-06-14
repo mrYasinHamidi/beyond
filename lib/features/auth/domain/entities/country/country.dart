@@ -3,8 +3,8 @@ import 'dart:io';
 import 'package:beyond/main.dart';
 import 'package:collection/collection.dart';
 import 'package:equatable/equatable.dart';
-import 'package:flutter_sim_country_code/flutter_sim_country_code.dart';
 import 'package:json_annotation/json_annotation.dart';
+import 'package:sim_card_info/sim_card_info.dart';
 
 part 'country.g.dart';
 
@@ -37,8 +37,8 @@ class Country extends Equatable {
 extension CountryListX on List<Country> {
   Future<String?> findUserCountryCode() async {
     try {
-      final simIso = await FlutterSimCountryCode.simCountryCode;
-      if (simIso != null && simIso.isNotEmpty) return simIso.toUpperCase();
+      final sims = await SimCardInfo().getSimInfo() ?? [];
+      return sims.firstOrNull?.countryIso.toUpperCase();
     } catch (_) {}
 
     try {

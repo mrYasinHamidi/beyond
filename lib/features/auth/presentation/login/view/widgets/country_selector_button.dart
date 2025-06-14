@@ -3,13 +3,15 @@ import 'package:flutter/material.dart';
 
 class CountrySelectorButton extends StatelessWidget {
   final Country? selected;
+  final VoidCallback? onTap;
 
-  const CountrySelectorButton({super.key, this.selected});
+  const CountrySelectorButton({super.key, this.selected, this.onTap});
 
   @override
   Widget build(BuildContext context) {
     return TextFormField(
       key: ValueKey(selected),
+      onTap: onTap,
       decoration: InputDecoration(suffixIcon: Icon(Icons.keyboard_arrow_down_rounded)),
       initialValue: "${selected?.flag ?? ''} ${selected?.name ?? ''}",
       readOnly: true,

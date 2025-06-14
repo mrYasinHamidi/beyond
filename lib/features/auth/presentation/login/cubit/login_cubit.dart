@@ -17,16 +17,16 @@ class LoginCubit extends Cubit<LoginState> {
   final phoneController = PhoneFieldController();
   final countryCodeController = TextEditingController(text: '+');
 
-  List<Country>? _countries;
+  List<Country>? countries;
   Country? selectedCountry;
 
   @PostConstruct()
   void initialize() async {
     final result = await _getCountries.call();
 
-    _countries = result.fold((l) => null, (r) => r);
+    countries = result.fold((l) => null, (r) => r);
 
-    final userCountry = await _countries?.findUserCountry();
+    final userCountry = await countries?.findUserCountry();
 
     setCountry(userCountry);
   }

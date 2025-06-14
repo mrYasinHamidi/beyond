@@ -3,7 +3,11 @@ part of 'app_theme.dart';
 class AppDarkTheme {
   ThemeData get _themeData => FlexThemeData.dark(scheme: FlexScheme.deepBlue);
 
-  late final themeData = _themeData.copyWith(appBarTheme: appBarTheme);
+  ThemeData get themeData => _themeData.copyWith(
+    visualDensity: VisualDensity.compact,
+    colorScheme: colorSchema,
+    scaffoldBackgroundColor: colorSchema.surface,
+  );
 
-  late final appBarTheme = _themeData.appBarTheme.copyWith(elevation: 0, backgroundColor: Colors.transparent);
+  ColorScheme get colorSchema => _themeData.colorScheme;
 }
