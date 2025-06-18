@@ -26,6 +26,8 @@ class LoginCubit extends Cubit<LoginState> {
 
     countries = result.fold((l) => null, (r) => r);
 
+    countries?.sort((a, b) => a.name.compareTo(b.name));
+
     final userCountry = await countries?.findUserCountry();
 
     setCountry(userCountry);

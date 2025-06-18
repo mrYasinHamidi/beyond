@@ -30,7 +30,7 @@ class _PhoneFieldState extends State<PhoneField> {
     return Stack(
       children: [
         Positioned(
-          bottom: 7.5,
+          bottom: 8,
           left: 0,
           child: Row(
             children: List.generate(12, (index) {
@@ -49,6 +49,7 @@ class _PhoneFieldState extends State<PhoneField> {
         TextField(
           keyboardType: TextInputType.number,
           controller: _controller,
+          readOnly: true,
           decoration: InputDecoration(contentPadding: EdgeInsets.fromLTRB(0, 20, 0, 12), isDense: true),
           inputFormatters: [
             SpaceInputFormatter([3, 6]),

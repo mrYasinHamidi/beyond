@@ -14,7 +14,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:gap/gap.dart';
-import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
@@ -58,7 +57,7 @@ class _LoginPageMobileState extends State<_LoginPageMobile> {
         children: [
           Expanded(
             child: Padding(
-              padding: const EdgeInsets.all(32),
+              padding: const EdgeInsets.symmetric(horizontal: 32),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.stretch,

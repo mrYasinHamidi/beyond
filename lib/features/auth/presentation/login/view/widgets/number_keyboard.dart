@@ -83,6 +83,7 @@ class _Button extends StatelessWidget {
       onTap: onTap,
       addDebounce: false,
       color: context.theme.scaffoldBackgroundColor.withAlpha(50),
+      side: BorderSide(color:context.theme.scaffoldBackgroundColor.withAlpha(20)),
       splashFactory: InkSparkle.splashFactory,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
